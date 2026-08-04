@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 
 import crypto from "node:crypto";
 import fs from "node:fs/promises";
