@@ -81,7 +81,11 @@ jobs:
           if [[ -f .state/meta-token.enc ]]; then git add -f .state/meta-token.enc; fi
           git add content-plan.json public/content-plan.json public/index.html
           git diff --cached --quiet && exit 0
-          git commit -m "chore: record Arga Tirta post $POST_ID"
+          if [[ "$RESULT" == "published" || "$RESULT" == "already_published" ]]; then
+            git commit -m "chore: record Arga Tirta post $POST_ID"
+          else
+            git commit -m "chore: persist renewable Instagram token state"
+          fi
           git push
       - name: Summary
         if: always()
