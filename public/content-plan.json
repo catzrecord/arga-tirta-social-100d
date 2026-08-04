@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "date": "2026-08-05",
+    "time_wib": "19:17",
+    "title": "Yang terlihat sederhana, biasanya punya proses panjang.",
+    "content_theme": "brand",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-001/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-001/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-001/post.jpg"
+      }
+    ],
+    "final_caption": "Yang terlihat sederhana, biasanya punya proses panjang.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 2,
+    "date": "2026-08-06",
+    "time_wib": "19:17",
+    "title": "Kenalan dengan pekerjaan di balik aliran air.",
+    "content_theme": "brand",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-002/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-002/slide-01.jpg",
+      "posts/arga-tirta-100d/day-002/slide-02.jpg",
+      "posts/arga-tirta-100d/day-002/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-002/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-002/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-002/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Kenalan dengan pekerjaan di balik aliran air.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 3,
+    "date": "2026-08-07",
+    "time_wib": "19:17",
+    "title": "Detail kecil yang ikut menjaga isi di dalamnya.",
+    "content_theme": "produk",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-003/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-003/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-003/post.jpg"
+      }
+    ],
+    "final_caption": "Detail kecil yang ikut menjaga isi di dalamnya.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 4,
+    "date": "2026-08-08",
+    "time_wib": "19:17",
+    "title": "Sebelum air mengalir, sistemnya perlu dipikirkan.",
+    "content_theme": "layanan",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-004/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-004/slide-01.jpg",
+      "posts/arga-tirta-100d/day-004/slide-02.jpg",
+      "posts/arga-tirta-100d/day-004/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-004/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-004/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-004/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Sebelum air mengalir, sistemnya perlu dipikirkan.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 5,
+    "date": "2026-08-09",
+    "time_wib": "19:17",
+    "title": "Hari kerja dimulai dari memeriksa hal-hal kecil.",
+    "content_theme": "human",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-005/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-005/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-005/post.jpg"
+      }
+    ],
+    "final_caption": "Hari kerja dimulai dari memeriksa hal-hal kecil.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 6,
+    "date": "2026-08-10",
+    "time_wib": "19:17",
+    "title": "Kalau sistemnya rapi, pekerjaan terasa lebih ringan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-006/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-006/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-006/post.jpg"
+      }
+    ],
+    "final_caption": "Kalau sistemnya rapi, pekerjaan terasa lebih ringan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 7,
+    "date": "2026-08-11",
+    "time_wib": "19:17",
+    "title": "AIR YANG BAIK / PUNYA CERITA / DI BALIKNYA.",
+    "content_theme": "text_only",
+    "weekly_theme": "Perkenalan yang tenang",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-007/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-007/slide-01.jpg",
+      "posts/arga-tirta-100d/day-007/slide-02.jpg",
+      "posts/arga-tirta-100d/day-007/slide-03.jpg",
+      "posts/arga-tirta-100d/day-007/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-007/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-007/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-007/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-007/slide-04.jpg"
+      }
+    ],
+    "final_caption": "AIR YANG BAIK / PUNYA CERITA / DI BALIKNYA.\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 8,
+    "date": "2026-08-12",
+    "time_wib": "19:17",
+    "title": "Bening adalah awal. Konsisten adalah tujuannya.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-008/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-008/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-008/post.jpg"
+      }
+    ],
+    "final_caption": "Bening adalah awal. Konsisten adalah tujuannya.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 9,
+    "date": "2026-08-13",
+    "time_wib": "19:17",
+    "title": "Tiga hal yang layak diperhatikan selain tampilan air.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-009/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-009/slide-01.jpg",
+      "posts/arga-tirta-100d/day-009/slide-02.jpg",
+      "posts/arga-tirta-100d/day-009/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-009/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-009/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-009/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tiga hal yang layak diperhatikan selain tampilan air.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 10,
+    "date": "2026-08-14",
+    "time_wib": "19:17",
+    "title": "Pemeriksaan rutin terlihat sepele sampai suatu hari dilewatkan.",
+    "content_theme": "human",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-010/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-010/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-010/post.jpg"
+      }
+    ],
+    "final_caption": "Pemeriksaan rutin terlihat sepele sampai suatu hari dilewatkan.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 11,
+    "date": "2026-08-15",
+    "time_wib": "19:17",
+    "title": "Kenapa aliran dan tekanan perlu diperhatikan bersama.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-011/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-011/slide-01.jpg",
+      "posts/arga-tirta-100d/day-011/slide-02.jpg",
+      "posts/arga-tirta-100d/day-011/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-011/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-011/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-011/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Kenapa aliran dan tekanan perlu diperhatikan bersama.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 12,
+    "date": "2026-08-16",
+    "time_wib": "19:17",
+    "title": "Tenang bukan berarti diam. Sistem yang baik tetap bekerja.",
+    "content_theme": "brand",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-012/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-012/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-012/post.jpg"
+      }
+    ],
+    "final_caption": "Tenang bukan berarti diam. Sistem yang baik tetap bekerja.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 13,
+    "date": "2026-08-17",
+    "time_wib": "19:17",
+    "title": "Kualitas lebih mudah dijaga saat prosesnya terbaca.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-013/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-013/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-013/post.jpg"
+      }
+    ],
+    "final_caption": "Kualitas lebih mudah dijaga saat prosesnya terbaca.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 14,
+    "date": "2026-08-18",
+    "time_wib": "19:17",
+    "title": "BENING ITU TERLIHAT. / PROSES TIDAK. / KEDUANYA",
+    "content_theme": "text_only",
+    "weekly_theme": "Bening belum tentu selesai",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-014/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-014/slide-01.jpg",
+      "posts/arga-tirta-100d/day-014/slide-02.jpg",
+      "posts/arga-tirta-100d/day-014/slide-03.jpg",
+      "posts/arga-tirta-100d/day-014/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-014/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-014/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-014/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-014/slide-04.jpg"
+      }
+    ],
+    "final_caption": "BENING ITU TERLIHAT. / PROSES TIDAK. / KEDUANYA\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 15,
+    "date": "2026-08-19",
+    "time_wib": "19:17",
+    "title": "Filter bekerja tanpa banyak suara.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-015/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-015/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-015/post.jpg"
+      }
+    ],
+    "final_caption": "Filter bekerja tanpa banyak suara.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 16,
+    "date": "2026-08-20",
+    "time_wib": "19:17",
+    "title": "Satu sistem, beberapa tahap, satu tujuan.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-016/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-016/slide-01.jpg",
+      "posts/arga-tirta-100d/day-016/slide-02.jpg",
+      "posts/arga-tirta-100d/day-016/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-016/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-016/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-016/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Satu sistem, beberapa tahap, satu tujuan.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 17,
+    "date": "2026-08-21",
+    "time_wib": "19:17",
+    "title": "Komponen yang tepat membuat alur lebih masuk akal.",
+    "content_theme": "produk",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-017/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-017/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-017/post.jpg"
+      }
+    ],
+    "final_caption": "Komponen yang tepat membuat alur lebih masuk akal.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 18,
+    "date": "2026-08-22",
+    "time_wib": "19:17",
+    "title": "Kapan filter perlu diperiksa, bukan sekadar diganti.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-018/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-018/slide-01.jpg",
+      "posts/arga-tirta-100d/day-018/slide-02.jpg",
+      "posts/arga-tirta-100d/day-018/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-018/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-018/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-018/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Kapan filter perlu diperiksa, bukan sekadar diganti.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 19,
+    "date": "2026-08-23",
+    "time_wib": "19:17",
+    "title": "Mendengar mesin kadang sama pentingnya dengan melihatnya.",
+    "content_theme": "human",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-019/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-019/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-019/post.jpg"
+      }
+    ],
+    "final_caption": "Mendengar mesin kadang sama pentingnya dengan melihatnya.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 20,
+    "date": "2026-08-24",
+    "time_wib": "19:17",
+    "title": "Setiap lokasi punya kebutuhan aliran yang berbeda.",
+    "content_theme": "layanan",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-020/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-020/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-020/post.jpg"
+      }
+    ],
+    "final_caption": "Setiap lokasi punya kebutuhan aliran yang berbeda.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 21,
+    "date": "2026-08-25",
+    "time_wib": "19:17",
+    "title": "FILTRASI BUKAN / SATU BENDA. / IA ADALAH",
+    "content_theme": "text_only",
+    "weekly_theme": "Mengenal filtrasi",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-021/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-021/slide-01.jpg",
+      "posts/arga-tirta-100d/day-021/slide-02.jpg",
+      "posts/arga-tirta-100d/day-021/slide-03.jpg",
+      "posts/arga-tirta-100d/day-021/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-021/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-021/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-021/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-021/slide-04.jpg"
+      }
+    ],
+    "final_caption": "FILTRASI BUKAN / SATU BENDA. / IA ADALAH\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 22,
+    "date": "2026-08-26",
+    "time_wib": "19:17",
+    "title": "Merawat sebelum bermasalah selalu terasa lebih ringan.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-022/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-022/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-022/post.jpg"
+      }
+    ],
+    "final_caption": "Merawat sebelum bermasalah selalu terasa lebih ringan.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 23,
+    "date": "2026-08-27",
+    "time_wib": "19:17",
+    "title": "Tanda kecil yang sebaiknya tidak diabaikan.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-023/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-023/slide-01.jpg",
+      "posts/arga-tirta-100d/day-023/slide-02.jpg",
+      "posts/arga-tirta-100d/day-023/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-023/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-023/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-023/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tanda kecil yang sebaiknya tidak diabaikan.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 24,
+    "date": "2026-08-28",
+    "time_wib": "19:17",
+    "title": "Ada ketelitian di setiap sambungan.",
+    "content_theme": "human",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-024/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-024/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-024/post.jpg"
+      }
+    ],
+    "final_caption": "Ada ketelitian di setiap sambungan.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 25,
+    "date": "2026-08-29",
+    "time_wib": "19:17",
+    "title": "Gambaran singkat kunjungan perawatan.",
+    "content_theme": "layanan",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-025/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-025/slide-01.jpg",
+      "posts/arga-tirta-100d/day-025/slide-02.jpg",
+      "posts/arga-tirta-100d/day-025/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-025/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-025/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-025/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Gambaran singkat kunjungan perawatan.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 26,
+    "date": "2026-08-30",
+    "time_wib": "19:17",
+    "title": "Catatan rapi membantu mesin bekerja lebih tenang.",
+    "content_theme": "brand",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-026/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-026/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-026/post.jpg"
+      }
+    ],
+    "final_caption": "Catatan rapi membantu mesin bekerja lebih tenang.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 27,
+    "date": "2026-08-31",
+    "time_wib": "19:17",
+    "title": "Jadwal sederhana bisa mencegah jeda yang panjang.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-027/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-027/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-027/post.jpg"
+      }
+    ],
+    "final_caption": "Jadwal sederhana bisa mencegah jeda yang panjang.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 28,
+    "date": "2026-09-01",
+    "time_wib": "19:17",
+    "title": "JANGAN TUNGGU / SAMPAI BERHENTI. / RAWAT SAAT",
+    "content_theme": "text_only",
+    "weekly_theme": "Perawatan berkala",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-028/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-028/slide-01.jpg",
+      "posts/arga-tirta-100d/day-028/slide-02.jpg",
+      "posts/arga-tirta-100d/day-028/slide-03.jpg",
+      "posts/arga-tirta-100d/day-028/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-028/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-028/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-028/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-028/slide-04.jpg"
+      }
+    ],
+    "final_caption": "JANGAN TUNGGU / SAMPAI BERHENTI. / RAWAT SAAT\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 29,
+    "date": "2026-09-02",
+    "time_wib": "19:17",
+    "title": "Ruang terbatas tetap bisa ditata dengan cermat.",
+    "content_theme": "layanan",
+    "weekly_theme": "Merancang depot",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-029/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-029/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-029/post.jpg"
+      }
+    ],
+    "final_caption": "Ruang terbatas tetap bisa ditata dengan cermat.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 30,
+    "date": "2026-09-03",
+    "time_wib": "19:17",
+    "title": "Dari ruang kosong menuju alur kerja yang jelas.",
+    "content_theme": "layanan",
+    "weekly_theme": "Merancang depot",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-030/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-030/slide-01.jpg",
+      "posts/arga-tirta-100d/day-030/slide-02.jpg",
+      "posts/arga-tirta-100d/day-030/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-030/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-030/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-030/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Dari ruang kosong menuju alur kerja yang jelas.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 31,
+    "date": "2026-09-04",
+    "time_wib": "19:17",
+    "title": "Posisi komponen memengaruhi cara tim bekerja.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Merancang depot",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-031/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-031/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-031/post.jpg"
+      }
+    ],
+    "final_caption": "Posisi komponen memengaruhi cara tim bekerja.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 32,
+    "date": "2026-09-05",
+    "time_wib": "19:17",
+    "title": "Tiga pertanyaan sebelum menentukan instalasi.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Merancang depot",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-032/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-032/slide-01.jpg",
+      "posts/arga-tirta-100d/day-032/slide-02.jpg",
+      "posts/arga-tirta-100d/day-032/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-032/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-032/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-032/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tiga pertanyaan sebelum menentukan instalasi.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 33,
+    "date": "2026-09-06",
+    "time_wib": "19:17",
+    "title": "Mengukur dua kali, memasang sekali.",
+    "content_theme": "human",
+    "weekly_theme": "Merancang depot",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-033/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-033/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-033/post.jpg"
+      }
+    ],
+    "final_caption": "Mengukur dua kali, memasang sekali.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 34,
+    "date": "2026-09-07",
+    "time_wib": "19:17",
+    "title": "Instalasi yang baik mengikuti kebutuhan, bukan sekadar kebiasaan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Merancang depot",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-034/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-034/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-034/post.jpg"
+      }
+    ],
+    "final_caption": "Instalasi yang baik mengikuti kebutuhan, bukan sekadar kebiasaan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 35,
+    "date": "2026-09-08",
+    "time_wib": "19:17",
+    "title": "RUANG BOLEH KECIL. / ALURNYA / TETAP HARUS",
+    "content_theme": "text_only",
+    "weekly_theme": "Merancang depot",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-035/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-035/slide-01.jpg",
+      "posts/arga-tirta-100d/day-035/slide-02.jpg",
+      "posts/arga-tirta-100d/day-035/slide-03.jpg",
+      "posts/arga-tirta-100d/day-035/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-035/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-035/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-035/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-035/slide-04.jpg"
+      }
+    ],
+    "final_caption": "RUANG BOLEH KECIL. / ALURNYA / TETAP HARUS\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 36,
+    "date": "2026-09-09",
+    "time_wib": "19:17",
+    "title": "Kecil bentuknya. Besar perannya.",
+    "content_theme": "produk",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-036/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-036/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-036/post.jpg"
+      }
+    ],
+    "final_caption": "Kecil bentuknya. Besar perannya.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 37,
+    "date": "2026-09-10",
+    "time_wib": "19:17",
+    "title": "Melihat tutup galon lebih dekat.",
+    "content_theme": "produk",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-037/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-037/slide-01.jpg",
+      "posts/arga-tirta-100d/day-037/slide-02.jpg",
+      "posts/arga-tirta-100d/day-037/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-037/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-037/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-037/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Melihat tutup galon lebih dekat.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 38,
+    "date": "2026-09-11",
+    "time_wib": "19:17",
+    "title": "Rapi saat disimpan, mudah saat dibutuhkan.",
+    "content_theme": "produk",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-038/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-038/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-038/post.jpg"
+      }
+    ],
+    "final_caption": "Rapi saat disimpan, mudah saat dibutuhkan.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 39,
+    "date": "2026-09-12",
+    "time_wib": "19:17",
+    "title": "Detail yang perlu diperhatikan saat memilih tutup galon.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-039/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-039/slide-01.jpg",
+      "posts/arga-tirta-100d/day-039/slide-02.jpg",
+      "posts/arga-tirta-100d/day-039/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-039/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-039/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-039/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Detail yang perlu diperhatikan saat memilih tutup galon.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 40,
+    "date": "2026-09-13",
+    "time_wib": "19:17",
+    "title": "Pengecekan sederhana sebelum barang berangkat.",
+    "content_theme": "human",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-040/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-040/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-040/post.jpg"
+      }
+    ],
+    "final_caption": "Pengecekan sederhana sebelum barang berangkat.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 41,
+    "date": "2026-09-14",
+    "time_wib": "19:17",
+    "title": "Untuk kebutuhan rutin, ketersediaan itu menenangkan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-041/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-041/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-041/post.jpg"
+      }
+    ],
+    "final_caption": "Untuk kebutuhan rutin, ketersediaan itu menenangkan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 42,
+    "date": "2026-09-15",
+    "time_wib": "19:17",
+    "title": "SERING DIANGGAP / SEPELE. / PADAHAL DETAIL",
+    "content_theme": "text_only",
+    "weekly_theme": "Tutup galon dan detail produk",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-042/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-042/slide-01.jpg",
+      "posts/arga-tirta-100d/day-042/slide-02.jpg",
+      "posts/arga-tirta-100d/day-042/slide-03.jpg",
+      "posts/arga-tirta-100d/day-042/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-042/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-042/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-042/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-042/slide-04.jpg"
+      }
+    ],
+    "final_caption": "SERING DIANGGAP / SEPELE. / PADAHAL DETAIL\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 43,
+    "date": "2026-09-16",
+    "time_wib": "19:17",
+    "title": "Bersih bukan acara. Ia kebiasaan.",
+    "content_theme": "human",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-043/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-043/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-043/post.jpg"
+      }
+    ],
+    "final_caption": "Bersih bukan acara. Ia kebiasaan.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 44,
+    "date": "2026-09-17",
+    "time_wib": "19:17",
+    "title": "Rutinitas kecil sebelum mulai bekerja.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-044/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-044/slide-01.jpg",
+      "posts/arga-tirta-100d/day-044/slide-02.jpg",
+      "posts/arga-tirta-100d/day-044/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-044/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-044/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-044/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Rutinitas kecil sebelum mulai bekerja.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 45,
+    "date": "2026-09-18",
+    "time_wib": "19:17",
+    "title": "Tempat kerja yang rapi membuat detail lebih mudah terlihat.",
+    "content_theme": "brand",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-045/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-045/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-045/post.jpg"
+      }
+    ],
+    "final_caption": "Tempat kerja yang rapi membuat detail lebih mudah terlihat.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 46,
+    "date": "2026-09-19",
+    "time_wib": "19:17",
+    "title": "Empat titik yang sering terlupa saat merapikan depot.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-046/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-046/slide-01.jpg",
+      "posts/arga-tirta-100d/day-046/slide-02.jpg",
+      "posts/arga-tirta-100d/day-046/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-046/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-046/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-046/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Empat titik yang sering terlupa saat merapikan depot.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 47,
+    "date": "2026-09-20",
+    "time_wib": "19:17",
+    "title": "Selesai bekerja, rapikan untuk hari berikutnya.",
+    "content_theme": "human",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-047/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-047/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-047/post.jpg"
+      }
+    ],
+    "final_caption": "Selesai bekerja, rapikan untuk hari berikutnya.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 48,
+    "date": "2026-09-21",
+    "time_wib": "19:17",
+    "title": "Sistem yang rapi memudahkan kebiasaan baik bertahan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-048/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-048/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-048/post.jpg"
+      }
+    ],
+    "final_caption": "Sistem yang rapi memudahkan kebiasaan baik bertahan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 49,
+    "date": "2026-09-22",
+    "time_wib": "19:17",
+    "title": "BERSIH BUKAN / SEKADAR KELIHATAN. / BERSIH ADALAH",
+    "content_theme": "text_only",
+    "weekly_theme": "Kebersihan sebagai kebiasaan",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-049/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-049/slide-01.jpg",
+      "posts/arga-tirta-100d/day-049/slide-02.jpg",
+      "posts/arga-tirta-100d/day-049/slide-03.jpg",
+      "posts/arga-tirta-100d/day-049/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-049/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-049/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-049/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-049/slide-04.jpg"
+      }
+    ],
+    "final_caption": "BERSIH BUKAN / SEKADAR KELIHATAN. / BERSIH ADALAH\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 50,
+    "date": "2026-09-23",
+    "time_wib": "19:17",
+    "title": "Hari pemasangan selalu dimulai dari ruang yang sunyi.",
+    "content_theme": "human",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-050/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-050/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-050/post.jpg"
+      }
+    ],
+    "final_caption": "Hari pemasangan selalu dimulai dari ruang yang sunyi.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 51,
+    "date": "2026-09-24",
+    "time_wib": "19:17",
+    "title": "Satu hari pemasangan dalam empat momen.",
+    "content_theme": "layanan",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-051/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-051/slide-01.jpg",
+      "posts/arga-tirta-100d/day-051/slide-02.jpg",
+      "posts/arga-tirta-100d/day-051/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-051/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-051/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-051/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Satu hari pemasangan dalam empat momen.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 52,
+    "date": "2026-09-25",
+    "time_wib": "19:17",
+    "title": "Fokus pada sambungan yang tidak boleh asal.",
+    "content_theme": "human",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-052/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-052/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-052/post.jpg"
+      }
+    ],
+    "final_caption": "Fokus pada sambungan yang tidak boleh asal.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 53,
+    "date": "2026-09-26",
+    "time_wib": "19:17",
+    "title": "Apa yang diperiksa sebelum sistem dinyalakan.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-053/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-053/slide-01.jpg",
+      "posts/arga-tirta-100d/day-053/slide-02.jpg",
+      "posts/arga-tirta-100d/day-053/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-053/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-053/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-053/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Apa yang diperiksa sebelum sistem dinyalakan.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 54,
+    "date": "2026-09-27",
+    "time_wib": "19:17",
+    "title": "Momen terbaik: ketika aliran pertama berjalan tenang.",
+    "content_theme": "brand",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-054/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-054/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-054/post.jpg"
+      }
+    ],
+    "final_caption": "Momen terbaik: ketika aliran pertama berjalan tenang.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 55,
+    "date": "2026-09-28",
+    "time_wib": "19:17",
+    "title": "Pemasangan selesai saat sistem sudah siap dipakai, bukan saat alat berdiri.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-055/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-055/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-055/post.jpg"
+      }
+    ],
+    "final_caption": "Pemasangan selesai saat sistem sudah siap dipakai, bukan saat alat berdiri.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 56,
+    "date": "2026-09-29",
+    "time_wib": "19:17",
+    "title": "PASANG. / UJI. / PERIKSA LAGI.",
+    "content_theme": "text_only",
+    "weekly_theme": "Hari pemasangan",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-056/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-056/slide-01.jpg",
+      "posts/arga-tirta-100d/day-056/slide-02.jpg",
+      "posts/arga-tirta-100d/day-056/slide-03.jpg",
+      "posts/arga-tirta-100d/day-056/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-056/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-056/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-056/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-056/slide-04.jpg"
+      }
+    ],
+    "final_caption": "PASANG. / UJI. / PERIKSA LAGI.\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 57,
+    "date": "2026-09-30",
+    "time_wib": "19:17",
+    "title": "Alur sederhana menghemat lebih dari sekadar waktu.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-057/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-057/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-057/post.jpg"
+      }
+    ],
+    "final_caption": "Alur sederhana menghemat lebih dari sekadar waktu.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 58,
+    "date": "2026-10-01",
+    "time_wib": "19:17",
+    "title": "Tiga cara membuat area kerja lebih mengalir.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-058/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-058/slide-01.jpg",
+      "posts/arga-tirta-100d/day-058/slide-02.jpg",
+      "posts/arga-tirta-100d/day-058/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-058/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-058/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-058/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tiga cara membuat area kerja lebih mengalir.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 59,
+    "date": "2026-10-02",
+    "time_wib": "19:17",
+    "title": "Gerakan berulang seharusnya terasa mudah.",
+    "content_theme": "human",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-059/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-059/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-059/post.jpg"
+      }
+    ],
+    "final_caption": "Gerakan berulang seharusnya terasa mudah.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 60,
+    "date": "2026-10-03",
+    "time_wib": "19:17",
+    "title": "Sebelum menambah alat, lihat dulu alurnya.",
+    "content_theme": "layanan",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-060/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-060/slide-01.jpg",
+      "posts/arga-tirta-100d/day-060/slide-02.jpg",
+      "posts/arga-tirta-100d/day-060/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-060/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-060/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-060/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Sebelum menambah alat, lihat dulu alurnya.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 61,
+    "date": "2026-10-04",
+    "time_wib": "19:17",
+    "title": "Rapi membuat keputusan sehari-hari lebih cepat.",
+    "content_theme": "brand",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-061/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-061/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-061/post.jpg"
+      }
+    ],
+    "final_caption": "Rapi membuat keputusan sehari-hari lebih cepat.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 62,
+    "date": "2026-10-05",
+    "time_wib": "19:17",
+    "title": "Kadang peningkatan terbaik dimulai dari penataan ulang.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-062/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-062/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-062/post.jpg"
+      }
+    ],
+    "final_caption": "Kadang peningkatan terbaik dimulai dari penataan ulang.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 63,
+    "date": "2026-10-06",
+    "time_wib": "19:17",
+    "title": "BEKERJA LEBIH CEPAT / BUKAN BERARTI / TERGESA-GESA.",
+    "content_theme": "text_only",
+    "weekly_theme": "Efisiensi usaha",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-063/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-063/slide-01.jpg",
+      "posts/arga-tirta-100d/day-063/slide-02.jpg",
+      "posts/arga-tirta-100d/day-063/slide-03.jpg",
+      "posts/arga-tirta-100d/day-063/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-063/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-063/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-063/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-063/slide-04.jpg"
+      }
+    ],
+    "final_caption": "BEKERJA LEBIH CEPAT / BUKAN BERARTI / TERGESA-GESA.\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 64,
+    "date": "2026-10-07",
+    "time_wib": "19:17",
+    "title": "Kepercayaan tumbuh dari hal yang dilakukan berulang.",
+    "content_theme": "brand",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-064/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-064/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-064/post.jpg"
+      }
+    ],
+    "final_caption": "Kepercayaan tumbuh dari hal yang dilakukan berulang.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 65,
+    "date": "2026-10-08",
+    "time_wib": "19:17",
+    "title": "Yang membuat pelanggan kembali sering kali sederhana.",
+    "content_theme": "brand",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-065/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-065/slide-01.jpg",
+      "posts/arga-tirta-100d/day-065/slide-02.jpg",
+      "posts/arga-tirta-100d/day-065/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-065/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-065/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-065/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Yang membuat pelanggan kembali sering kali sederhana.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 66,
+    "date": "2026-10-09",
+    "time_wib": "19:17",
+    "title": "Sapa yang hangat tetap bagian dari kualitas.",
+    "content_theme": "human",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-066/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-066/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-066/post.jpg"
+      }
+    ],
+    "final_caption": "Sapa yang hangat tetap bagian dari kualitas.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 67,
+    "date": "2026-10-10",
+    "time_wib": "19:17",
+    "title": "Tunjukkan proses tanpa harus bicara terlalu keras.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-067/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-067/slide-01.jpg",
+      "posts/arga-tirta-100d/day-067/slide-02.jpg",
+      "posts/arga-tirta-100d/day-067/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-067/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-067/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-067/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tunjukkan proses tanpa harus bicara terlalu keras.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 68,
+    "date": "2026-10-11",
+    "time_wib": "19:17",
+    "title": "Kemasan yang rapi menutup proses dengan baik.",
+    "content_theme": "produk",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-068/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-068/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-068/post.jpg"
+      }
+    ],
+    "final_caption": "Kemasan yang rapi menutup proses dengan baik.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 69,
+    "date": "2026-10-12",
+    "time_wib": "19:17",
+    "title": "Kualitas yang konsisten terasa sebelum dijelaskan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-069/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-069/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-069/post.jpg"
+      }
+    ],
+    "final_caption": "Kualitas yang konsisten terasa sebelum dijelaskan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 70,
+    "date": "2026-10-13",
+    "time_wib": "19:17",
+    "title": "KEPERCAYAAN / TIDAK DATANG / DALAM SEHARI.",
+    "content_theme": "text_only",
+    "weekly_theme": "Menjaga kepercayaan",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-070/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-070/slide-01.jpg",
+      "posts/arga-tirta-100d/day-070/slide-02.jpg",
+      "posts/arga-tirta-100d/day-070/slide-03.jpg",
+      "posts/arga-tirta-100d/day-070/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-070/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-070/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-070/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-070/slide-04.jpg"
+      }
+    ],
+    "final_caption": "KEPERCAYAAN / TIDAK DATANG / DALAM SEHARI.\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 71,
+    "date": "2026-10-14",
+    "time_wib": "19:17",
+    "title": "Perubahan suara adalah informasi.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-071/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-071/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-071/post.jpg"
+      }
+    ],
+    "final_caption": "Perubahan suara adalah informasi.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 72,
+    "date": "2026-10-15",
+    "time_wib": "19:17",
+    "title": "Empat sinyal sistem perlu diperiksa.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-072/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-072/slide-01.jpg",
+      "posts/arga-tirta-100d/day-072/slide-02.jpg",
+      "posts/arga-tirta-100d/day-072/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-072/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-072/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-072/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Empat sinyal sistem perlu diperiksa.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 73,
+    "date": "2026-10-16",
+    "time_wib": "19:17",
+    "title": "Teknisi yang teliti tidak hanya melihat.",
+    "content_theme": "human",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-073/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-073/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-073/post.jpg"
+      }
+    ],
+    "final_caption": "Teknisi yang teliti tidak hanya melihat.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 74,
+    "date": "2026-10-17",
+    "time_wib": "19:17",
+    "title": "Catat perubahan kecil sebelum menjadi pola.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-074/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-074/slide-01.jpg",
+      "posts/arga-tirta-100d/day-074/slide-02.jpg",
+      "posts/arga-tirta-100d/day-074/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-074/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-074/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-074/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Catat perubahan kecil sebelum menjadi pola.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 75,
+    "date": "2026-10-18",
+    "time_wib": "19:17",
+    "title": "Pemeriksaan dimulai dari cerita pemiliknya.",
+    "content_theme": "layanan",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-075/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-075/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-075/post.jpg"
+      }
+    ],
+    "final_caption": "Pemeriksaan dimulai dari cerita pemiliknya.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 76,
+    "date": "2026-10-19",
+    "time_wib": "19:17",
+    "title": "Lebih cepat ditemukan, lebih tenang ditangani.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-076/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-076/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-076/post.jpg"
+      }
+    ],
+    "final_caption": "Lebih cepat ditemukan, lebih tenang ditangani.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 77,
+    "date": "2026-10-20",
+    "time_wib": "19:17",
+    "title": "MESIN SELALU / MEMBERI TANDA. / PERTANYAANNYA:",
+    "content_theme": "text_only",
+    "weekly_theme": "Membaca tanda kecil",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-077/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-077/slide-01.jpg",
+      "posts/arga-tirta-100d/day-077/slide-02.jpg",
+      "posts/arga-tirta-100d/day-077/slide-03.jpg",
+      "posts/arga-tirta-100d/day-077/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-077/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-077/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-077/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-077/slide-04.jpg"
+      }
+    ],
+    "final_caption": "MESIN SELALU / MEMBERI TANDA. / PERTANYAANNYA:\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 78,
+    "date": "2026-10-21",
+    "time_wib": "19:17",
+    "title": "Tidak semua perubahan harus besar.",
+    "content_theme": "brand",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-078/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-078/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-078/post.jpg"
+      }
+    ],
+    "final_caption": "Tidak semua perubahan harus besar.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 79,
+    "date": "2026-10-22",
+    "time_wib": "19:17",
+    "title": "Tiga peningkatan kecil untuk alur yang lebih nyaman.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-079/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-079/slide-01.jpg",
+      "posts/arga-tirta-100d/day-079/slide-02.jpg",
+      "posts/arga-tirta-100d/day-079/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-079/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-079/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-079/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Tiga peningkatan kecil untuk alur yang lebih nyaman.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 80,
+    "date": "2026-10-23",
+    "time_wib": "19:17",
+    "title": "Komponen sederhana bisa mengurangi kerepotan harian.",
+    "content_theme": "produk",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-080/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-080/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-080/post.jpg"
+      }
+    ],
+    "final_caption": "Komponen sederhana bisa mengurangi kerepotan harian.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 81,
+    "date": "2026-10-24",
+    "time_wib": "19:17",
+    "title": "Evaluasi singkat sebelum memutuskan upgrade.",
+    "content_theme": "layanan",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-081/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-081/slide-01.jpg",
+      "posts/arga-tirta-100d/day-081/slide-02.jpg",
+      "posts/arga-tirta-100d/day-081/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-081/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-081/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-081/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Evaluasi singkat sebelum memutuskan upgrade.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 82,
+    "date": "2026-10-25",
+    "time_wib": "19:17",
+    "title": "Rapi sedikit demi sedikit tetap sebuah kemajuan.",
+    "content_theme": "human",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-082/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-082/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-082/post.jpg"
+      }
+    ],
+    "final_caption": "Rapi sedikit demi sedikit tetap sebuah kemajuan.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 83,
+    "date": "2026-10-26",
+    "time_wib": "19:17",
+    "title": "Mulai dari titik yang paling sering merepotkan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-083/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-083/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-083/post.jpg"
+      }
+    ],
+    "final_caption": "Mulai dari titik yang paling sering merepotkan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 84,
+    "date": "2026-10-27",
+    "time_wib": "19:17",
+    "title": "TIDAK HARUS / BERUBAH BESAR. / CUKUP MULAI",
+    "content_theme": "text_only",
+    "weekly_theme": "Peningkatan kecil",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-084/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-084/slide-01.jpg",
+      "posts/arga-tirta-100d/day-084/slide-02.jpg",
+      "posts/arga-tirta-100d/day-084/slide-03.jpg",
+      "posts/arga-tirta-100d/day-084/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-084/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-084/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-084/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-084/slide-04.jpg"
+      }
+    ],
+    "final_caption": "TIDAK HARUS / BERUBAH BESAR. / CUKUP MULAI\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 85,
+    "date": "2026-10-28",
+    "time_wib": "19:17",
+    "title": "Setiap usaha punya tahapnya sendiri.",
+    "content_theme": "human",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-085/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-085/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-085/post.jpg"
+      }
+    ],
+    "final_caption": "Setiap usaha punya tahapnya sendiri.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 86,
+    "date": "2026-10-29",
+    "time_wib": "19:17",
+    "title": "Dari rencana kecil menuju sistem yang berjalan.",
+    "content_theme": "brand",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-086/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-086/slide-01.jpg",
+      "posts/arga-tirta-100d/day-086/slide-02.jpg",
+      "posts/arga-tirta-100d/day-086/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-086/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-086/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-086/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Dari rencana kecil menuju sistem yang berjalan.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 87,
+    "date": "2026-10-30",
+    "time_wib": "19:17",
+    "title": "Kami mulai dari mendengar kebutuhan di lapangan.",
+    "content_theme": "layanan",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-087/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-087/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-087/post.jpg"
+      }
+    ],
+    "final_caption": "Kami mulai dari mendengar kebutuhan di lapangan.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 88,
+    "date": "2026-10-31",
+    "time_wib": "19:17",
+    "title": "Pertanyaan yang membantu sebelum membuka depot.",
+    "content_theme": "edukasi",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-088/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-088/slide-01.jpg",
+      "posts/arga-tirta-100d/day-088/slide-02.jpg",
+      "posts/arga-tirta-100d/day-088/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-088/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-088/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-088/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Pertanyaan yang membantu sebelum membuka depot.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 89,
+    "date": "2026-11-01",
+    "time_wib": "19:17",
+    "title": "Kerja baik terasa dari hubungan yang tetap terjaga.",
+    "content_theme": "brand",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-089/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-089/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-089/post.jpg"
+      }
+    ],
+    "final_caption": "Kerja baik terasa dari hubungan yang tetap terjaga.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 90,
+    "date": "2026-11-02",
+    "time_wib": "19:17",
+    "title": "Bicarakan kebutuhannya dulu. Solusinya menyusul.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-090/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-090/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-090/post.jpg"
+      }
+    ],
+    "final_caption": "Bicarakan kebutuhannya dulu. Solusinya menyusul.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 91,
+    "date": "2026-11-03",
+    "time_wib": "19:17",
+    "title": "USAHA BERTUMBUH / DENGAN CARANYA. / SISTEM YANG BAIK",
+    "content_theme": "text_only",
+    "weekly_theme": "Bertumbuh bersama",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-091/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-091/slide-01.jpg",
+      "posts/arga-tirta-100d/day-091/slide-02.jpg",
+      "posts/arga-tirta-100d/day-091/slide-03.jpg",
+      "posts/arga-tirta-100d/day-091/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-091/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-091/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-091/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-091/slide-04.jpg"
+      }
+    ],
+    "final_caption": "USAHA BERTUMBUH / DENGAN CARANYA. / SISTEM YANG BAIK\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 92,
+    "date": "2026-11-04",
+    "time_wib": "19:17",
+    "title": "Kami menyukai pekerjaan yang hasilnya terasa, bukan berisik.",
+    "content_theme": "brand",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-092/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-092/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-092/post.jpg"
+      }
+    ],
+    "final_caption": "Kami menyukai pekerjaan yang hasilnya terasa, bukan berisik.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 93,
+    "date": "2026-11-05",
+    "time_wib": "19:17",
+    "title": "Empat kata yang menjaga cara kami bekerja.",
+    "content_theme": "brand",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-093/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-093/slide-01.jpg",
+      "posts/arga-tirta-100d/day-093/slide-02.jpg",
+      "posts/arga-tirta-100d/day-093/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-093/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-093/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-093/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Empat kata yang menjaga cara kami bekerja.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 94,
+    "date": "2026-11-06",
+    "time_wib": "19:17",
+    "title": "Tangan yang terbiasa tetap memeriksa dua kali.",
+    "content_theme": "human",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-094/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-094/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-094/post.jpg"
+      }
+    ],
+    "final_caption": "Tangan yang terbiasa tetap memeriksa dua kali.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 95,
+    "date": "2026-11-07",
+    "time_wib": "19:17",
+    "title": "Seratus hari membicarakan detail yang sering luput.",
+    "content_theme": "brand",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-095/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-095/slide-01.jpg",
+      "posts/arga-tirta-100d/day-095/slide-02.jpg",
+      "posts/arga-tirta-100d/day-095/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-095/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-095/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-095/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Seratus hari membicarakan detail yang sering luput.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 96,
+    "date": "2026-11-08",
+    "time_wib": "19:17",
+    "title": "Produk baik hadir untuk dipakai, bukan sekadar dipajang.",
+    "content_theme": "produk",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-096/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-096/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-096/post.jpg"
+      }
+    ],
+    "final_caption": "Produk baik hadir untuk dipakai, bukan sekadar dipajang.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 97,
+    "date": "2026-11-09",
+    "time_wib": "19:17",
+    "title": "Saat waktunya merapikan sistem, kami siap mendengarkan.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-097/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-097/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-097/post.jpg"
+      }
+    ],
+    "final_caption": "Saat waktunya merapikan sistem, kami siap mendengarkan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 98,
+    "date": "2026-11-10",
+    "time_wib": "19:17",
+    "title": "KERJA YANG BAIK / TIDAK HARUS / TERLIHAT RAMAI.",
+    "content_theme": "text_only",
+    "weekly_theme": "Filosofi kerja Arga Tirta",
+    "post_type": "carousel",
+    "slide_count": 4,
+    "asset": "posts/arga-tirta-100d/day-098/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-098/slide-01.jpg",
+      "posts/arga-tirta-100d/day-098/slide-02.jpg",
+      "posts/arga-tirta-100d/day-098/slide-03.jpg",
+      "posts/arga-tirta-100d/day-098/slide-04.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-098/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-098/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-098/slide-03.jpg"
+      },
+      {
+        "index": 4,
+        "asset": "posts/arga-tirta-100d/day-098/slide-04.jpg"
+      }
+    ],
+    "final_caption": "KERJA YANG BAIK / TIDAK HARUS / TERLIHAT RAMAI.\n\nBeberapa hal tidak selalu terlihat, tetapi perannya terasa ketika semuanya berjalan rapi.\n\nGeser, lalu simpan bagian yang paling terasa.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 99,
+    "date": "2026-11-11",
+    "time_wib": "19:17",
+    "title": "Seratus hari, satu benang merah: detail tetap penting.",
+    "content_theme": "brand",
+    "weekly_theme": "Penutup 100 hari",
+    "post_type": "single",
+    "slide_count": 1,
+    "asset": "posts/arga-tirta-100d/day-099/post.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-099/post.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-099/post.jpg"
+      }
+    ],
+    "final_caption": "Seratus hari, satu benang merah: detail tetap penting.\n\nKami percaya hasil yang tenang selalu lahir dari proses yang diperhatikan.\n\nSimpan sebagai pengingat kecil.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  },
+  {
+    "id": 100,
+    "date": "2026-11-12",
+    "time_wib": "19:17",
+    "title": "Kalau ada satu bagian yang ingin dirapikan, mulai dari sana.",
+    "content_theme": "soft_sell",
+    "weekly_theme": "Penutup 100 hari",
+    "post_type": "carousel",
+    "slide_count": 3,
+    "asset": "posts/arga-tirta-100d/day-100/slide-01.jpg",
+    "assets": [
+      "posts/arga-tirta-100d/day-100/slide-01.jpg",
+      "posts/arga-tirta-100d/day-100/slide-02.jpg",
+      "posts/arga-tirta-100d/day-100/slide-03.jpg"
+    ],
+    "slides": [
+      {
+        "index": 1,
+        "asset": "posts/arga-tirta-100d/day-100/slide-01.jpg"
+      },
+      {
+        "index": 2,
+        "asset": "posts/arga-tirta-100d/day-100/slide-02.jpg"
+      },
+      {
+        "index": 3,
+        "asset": "posts/arga-tirta-100d/day-100/slide-03.jpg"
+      }
+    ],
+    "final_caption": "Kalau ada satu bagian yang ingin dirapikan, mulai dari sana.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
+    "status": "queued_auto",
+    "approval_required": true,
+    "approval_status": "approved",
+    "visual_revision": "cinematic-field-notes-v1",
+    "asset_version": "arga-tirta-100d-v1",
+    "ai_generated": true
+  }
+]

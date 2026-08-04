@@ -1,0 +1,10 @@
+{
+  "name": "arga-tirta-social-100d",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_public.mjs",
+    "validate": "node scripts/validate.mjs",
+    "verify:local": "node scripts/publish_due.mjs --mode=plan"
+  }
+}

@@ -1,0 +1,92 @@
+name: Arga Tirta Instagram Cloud Publisher
+
+on:
+  schedule:
+    # 19:17 WIB = 12:17 UTC
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Verify or publish the Arga Tirta queue"
+        required: true
+        default: verify
+        type: choice
+        options: [verify, preflight, due, publish-id]
+      post_id:
+        description: "Queue ID used only with publish-id"
+        required: false
+        type: string
+      force_token_refresh:
+        description: "Rotate renewable Meta token"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: arga-tirta-instagram-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_TOKEN_ENCRYPTION_KEY: ${{ secrets.META_TOKEN_ENCRYPTION_KEY }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      EXPECTED_INSTAGRAM_USERNAME: ${{ vars.EXPECTED_INSTAGRAM_USERNAME }}
+      PUBLIC_ASSET_BASE_URL: ${{ secrets.PUBLIC_ASSET_BASE_URL || 'https://catzrecord.github.io/arga-tirta-social-100d' }}
+      META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
+      META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
+      META_DISCLOSE_AI: "true"
+      META_TOKEN_FORCE_REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.force_token_refresh || 'false' }}
+      ARGA_TIRTA_PUBLISH_MODE: ${{ github.event_name == 'schedule' && 'due' || inputs.mode }}
+      ARGA_TIRTA_POST_ID: ${{ inputs.mode == 'publish-id' && inputs.post_id || '' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Validate cloud configuration
+        run: |
+          test -n "$META_ACCESS_TOKEN"
+          test -n "$META_TOKEN_ENCRYPTION_KEY"
+          test -n "$INSTAGRAM_USER_ID"
+          test -n "$PUBLIC_ASSET_BASE_URL"
+      - name: Validate queue and assets
+        run: npm run validate
+      - name: Prepare renewable Meta token
+        id: token
+        run: node scripts/prepare_meta_token.mjs
+      - name: Verify or publish
+        id: publisher
+        run: node scripts/publish_due.mjs
+      - name: Rebuild dashboard
+        if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+        run: npm run build
+      - name: Save ledger and token state
+        if: steps.token.outputs.state_changed == 'true' || contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+        env:
+          RESULT: ${{ steps.publisher.outputs.result }}
+          POST_ID: ${{ steps.publisher.outputs.post_id }}
+        run: |
+          git config user.name "arga-tirta-publisher[bot]"
+          git config user.email "arga-tirta-publisher@users.noreply.github.com"
+          if [[ -f .state/meta-token.enc ]]; then git add -f .state/meta-token.enc; fi
+          git add content-plan.json public/content-plan.json public/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: record Arga Tirta post $POST_ID"
+          git push
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Arga Tirta Instagram Publisher" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Result: ${{ steps.publisher.outputs.result || 'workflow_failed' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Post: ${{ steps.publisher.outputs.post_id || '-' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Instagram: ${{ steps.publisher.outputs.instagram_url || '-' }}" >> "$GITHUB_STEP_SUMMARY"
