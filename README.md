@@ -19,3 +19,12 @@ npm run verify:local
 ```
 
 Dashboard: https://catzrecord.github.io/arga-tirta-social-100d/
+
+## Hubungkan akun Instagram
+
+Jalankan helper berikut. Token dimasukkan melalui prompt tersembunyi dan langsung
+disimpan sebagai GitHub Actions secret.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\setup_meta_secrets.ps1
+```
