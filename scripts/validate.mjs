@@ -11,8 +11,12 @@ const hashes = new Map();
 let assetCount = 0;
 for (const item of plan) {
   if (item.time_wib !== "19:17") throw new Error(`Bad time for ${item.id}`);
-  if (item.status !== "queued_auto" || item.approval_status !== "approved") {
-    throw new Error(`Post ${item.id} is not approved/queued`);
+  const validStatus = item.status === "queued_auto" || item.status === "published";
+  if (!validStatus || item.approval_status !== "approved") {
+    throw new Error(`Post ${item.id} is not approved or in a valid queue state`);
+  }
+  if (item.status === "published" && !item.instagram_media_id) {
+    throw new Error(`Published post ${item.id} has no Instagram media ID`);
   }
   const expected = item.post_type === "single" ? 1 : item.content_theme === "text_only" ? 4 : 3;
   if (item.assets.length !== expected || item.slide_count !== expected) {
