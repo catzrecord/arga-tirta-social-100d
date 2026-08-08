@@ -347,6 +347,17 @@ async function main() {
     await setOutput({ result: "no_post_due", now_wib: currentWib });
     return;
   }
+  // Pada run terjadwal (mode "due"), post yang belum di-approve bukanlah kegagalan.
+  // Cukup catat sebagai "not_approved" dan selesai sukses agar tidak spam email failed.
+  // Mode manual (preflight / publish-id) tetap strict lewat requireApproved().
+  if (mode === "due" && item.status !== "published" && item.approval_status !== "approved") {
+    await setOutput({
+      result: "not_approved",
+      post_id: item.id,
+      now_wib: currentWib,
+    });
+    return;
+  }
   requireApproved(item);
   if (item.status === "published") {
     await setOutput({
