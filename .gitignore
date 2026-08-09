@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 .state/meta-token.enc
 .state/threads-token.enc
+.vercel/
+.env*.local
