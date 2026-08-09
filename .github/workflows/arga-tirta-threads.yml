@@ -1,0 +1,86 @@
+name: Arga Tirta Threads Scheduled Publisher
+
+on:
+  schedule:
+    # 08:17 WIB = 01:17 UTC; 19:17 WIB = 12:17 UTC
+    - cron: "17 1,12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Verify, preflight, publish due item, or publish one queue ID"
+        required: true
+        default: verify
+        type: choice
+        options: [verify, preflight, due, publish-id]
+      post_id:
+        description: "Example: AT-THR-D001-AM (only for publish-id)"
+        required: false
+        type: string
+      force_token_refresh:
+        description: "Refresh the renewable Threads token now"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arga-tirta-threads-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      META_TOKEN_ENCRYPTION_KEY: ${{ secrets.META_TOKEN_ENCRYPTION_KEY }}
+      PUBLIC_ASSET_BASE_URL: ${{ secrets.PUBLIC_ASSET_BASE_URL || 'https://catzrecord.github.io/arga-tirta-social-100d' }}
+      THREADS_GRAPH_BASE: ${{ vars.THREADS_GRAPH_BASE || 'https://graph.threads.net' }}
+      THREADS_EXPECTED_USERNAME: ${{ vars.THREADS_EXPECTED_USERNAME || 'cv.argatirta' }}
+      THREADS_TOKEN_FORCE_REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.force_token_refresh || 'false' }}
+      ARGA_TIRTA_THREADS_MODE: ${{ github.event_name == 'schedule' && 'due' || inputs.mode }}
+      ARGA_TIRTA_THREADS_POST_ID: ${{ inputs.mode == 'publish-id' && inputs.post_id || '' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Validate configuration
+        run: |
+          test -n "$THREADS_ACCESS_TOKEN"
+          test -n "$META_TOKEN_ENCRYPTION_KEY"
+          test -n "$PUBLIC_ASSET_BASE_URL"
+      - name: Validate 100-day Threads queue
+        run: npm run validate:threads
+      - name: Prepare renewable Threads token
+        id: token
+        run: node scripts/prepare_threads_token.mjs
+      - name: Verify or publish
+        id: publisher
+        run: node scripts/publish_threads_due.mjs
+      - name: Save Threads ledger and encrypted token state
+        if: always()
+        env:
+          RESULT: ${{ steps.publisher.outputs.result }}
+          POST_ID: ${{ steps.publisher.outputs.post_id }}
+        run: |
+          git config user.name "arga-tirta-publisher[bot]"
+          git config user.email "arga-tirta-publisher@users.noreply.github.com"
+          if [[ -f .state/threads-token.enc ]]; then git add -f .state/threads-token.enc; fi
+          git add threads-content-plan.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: Threads ${RESULT:-state} ${POST_ID:-token}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Arga Tirta Threads Publisher" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Result: ${{ steps.publisher.outputs.result || 'workflow_failed' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Queue item: ${{ steps.publisher.outputs.post_id || '-' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Threads URL: ${{ steps.publisher.outputs.threads_url || '-' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: 08:17 and 19:17 WIB" >> "$GITHUB_STEP_SUMMARY"

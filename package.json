@@ -5,6 +5,9 @@
   "scripts": {
     "build": "node scripts/build_public.mjs",
     "validate": "node scripts/validate.mjs",
-    "verify:local": "node scripts/publish_due.mjs --mode=plan"
+    "verify:local": "node scripts/publish_due.mjs --mode=plan",
+    "generate:threads": "python scripts/generate_threads_campaign.py",
+    "validate:threads": "node scripts/validate_threads.mjs",
+    "verify:threads:local": "node scripts/publish_threads_due.mjs --mode=plan"
   }
 }

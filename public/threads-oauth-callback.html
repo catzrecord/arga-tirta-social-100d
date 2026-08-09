@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Arga Tirta Threads OAuth</title>
+  <style>
+    body{font-family:system-ui,sans-serif;background:#07131d;color:#f4fbff;display:grid;place-items:center;min-height:100vh;margin:0}
+    main{max-width:680px;padding:32px;border:1px solid #285064;border-radius:18px;background:#0d2130}
+    code{display:block;overflow-wrap:anywhere;background:#061019;padding:14px;border-radius:10px;color:#8fe3ff}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Arga Tirta Threads</h1>
+    <p>Otorisasi diterima. Tab ini dipakai untuk menghubungkan GitHub Actions.</p>
+    <code id="result">Memeriksa kode…</code>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    document.querySelector('#result').textContent = params.get('code')
+      ? `Kode diterima: ${params.get('code')}`
+      : (params.get('error_description') || 'Kode belum tersedia.');
+  </script>
+</body>
+</html>

@@ -1,5 +1,23 @@
 # Arga Tirta Social 100D
 
+## Threads via GitHub Actions
+
+- Queue: `threads-content-plan.json`
+- 100 days, 2 starter posts/day at 08:17 and 19:17 WIB
+- 28 mini-thread sessions with 3 replies each
+- 28 posts use original Arga Tirta field photos (2/week)
+- Workflow: `.github/workflows/arga-tirta-threads.yml`
+- Required secret: `THREADS_ACCESS_TOKEN`
+- Existing secrets reused: `META_TOKEN_ENCRYPTION_KEY`, `PUBLIC_ASSET_BASE_URL`
+- Variables: `THREADS_EXPECTED_USERNAME=cv.argatirta`, `THREADS_GRAPH_BASE=https://graph.threads.net`
+
+Local checks:
+
+```powershell
+npm run validate:threads
+npm run verify:threads:local
+```
+
 Kampanye Instagram 100 hari untuk Arga Tirta.
 
 - 100 post terjadwal, 5 Agustus sampai 12 November 2026
