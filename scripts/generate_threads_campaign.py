@@ -11,7 +11,7 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_ROOT = ROOT.parent / "arga-tirta-website-cinematic" / "img"
+SOURCE_ROOT = ROOT / "production-sources" / "local-gallery"
 ASSET_ROOT = ROOT / "public" / "threads-assets"
 PLAN_PATH = ROOT / "threads-content-plan.json"
 START_DATE = date(2026, 8, 10)
@@ -21,18 +21,22 @@ WA = "https://wa.me/628128787299"
 
 
 GALLERY_SEQUENCE = [
-    "real-banner.webp",
-    "real-01.webp",
-    "real-02.webp",
-    "real-03.webp",
-    "real-05.webp",
-    "real-08.webp",
+    "real-banner.jpg",
+    "real-01.jpg",
+    "real-02.jpg",
+    "catalog-cap-delivery.jpg",
+    "real-03.jpg",
+    "catalog-blue-lit-depot.jpg",
+    "real-05.jpg",
+    "catalog-black-frame-depot.jpg",
+    "catalog-complete-black-system.jpg",
+    "real-08.jpg",
 ]
 
-PHOTO_DAYS = {3, 6, 10, 13, 17, 20}
+PHOTO_DAYS = {3, 6, 10, 13, 17, 20, 24, 27, 31, 34}
 
 GALLERY_STORIES = {
-    "real-banner.webp": {
+    "real-banner.jpg": {
         "lead": "Foto ini menunjukkan unit depot Arga Tirta yang sudah selesai dirakit dan siap dikirim ke lokasi pelanggan.",
         "alt": "Unit depot air minum Arga Tirta selesai dirakit dan siap dikirim serta dipasang.",
         "topic": "Unit siap kirim",
@@ -40,7 +44,7 @@ GALLERY_STORIES = {
         "checks": ["akses unit menuju lokasi", "ukuran ruang dan jarak servis", "kesiapan listrik, tandon, dan pipa"],
         "question": "Lokasi depot Anda sudah diukur sampai jalur masuk unitnya?",
     },
-    "real-01.webp": {
+    "real-01.jpg": {
         "lead": "Di foto ini pelanggan dan keluarganya berdiri di depan unit depot yang sudah terpasang dan menyala.",
         "alt": "Pelanggan dan keluarganya bersama unit depot Arga Tirta yang sudah terpasang.",
         "topic": "Unit siap beroperasi",
@@ -48,7 +52,7 @@ GALLERY_STORIES = {
         "checks": ["SOP buka dan tutup", "jadwal sanitasi serta penggantian filter", "kontak dukungan saat muncul perubahan"],
         "question": "Siapa yang akan memegang checklist harian di depot Anda?",
     },
-    "real-02.webp": {
+    "real-02.jpg": {
         "lead": "Di foto ini saya sedang berjabat tangan dengan pelanggan saat serah terima unit Arga Tirta.",
         "alt": "Arga Tirta berjabat tangan dengan pelanggan saat serah terima unit depot.",
         "topic": "Serah terima pelanggan",
@@ -56,7 +60,7 @@ GALLERY_STORIES = {
         "checks": ["spesifikasi dan hasil pekerjaan", "pelatihan operator", "garansi serta kontak layanan"],
         "question": "Saat serah terima, bagian apa yang paling ingin Anda pahami lebih dulu?",
     },
-    "real-03.webp": {
+    "real-03.jpg": {
         "lead": "Foto ini memperlihatkan unit RO dan mineral yang sudah terpasang rapi di lokasi pelanggan.",
         "alt": "Unit depot RO dan mineral Arga Tirta terpasang rapi di lokasi pelanggan.",
         "topic": "Sistem RO dan mineral",
@@ -64,7 +68,7 @@ GALLERY_STORIES = {
         "checks": ["hasil uji air baku", "target produksi harian", "akses penggantian media dan servis"],
         "question": "Target produksi depot Anda berapa galon per hari?",
     },
-    "real-05.webp": {
+    "real-05.jpg": {
         "lead": "Foto lapangan ini memperlihatkan ruang pengisian, lampu UV, housing, dan tabung filtrasi dalam satu alur kerja.",
         "alt": "Ruang pengisian dan rangkaian filtrasi depot air minum Arga Tirta.",
         "topic": "Alur filtrasi dan pengisian",
@@ -72,13 +76,45 @@ GALLERY_STORIES = {
         "checks": ["tekanan dan debit", "jadwal filter serta sanitasi", "kebersihan galon dan nozzle"],
         "question": "Bagian mana yang paling sering diperiksa operator setiap pagi?",
     },
-    "real-08.webp": {
+    "real-08.jpg": {
         "lead": "Di foto ini kami berdiri bersama pemilik depot dan banner usaha mereka setelah instalasi selesai.",
         "alt": "Tim Arga Tirta bersama pemilik depot dan banner usaha setelah instalasi selesai.",
         "topic": "Identitas usaha pelanggan",
         "lesson": "Depot bukan hanya soal mesin. Nama usaha, nomor yang mudah dihubungi, pelayanan, dan proses yang konsisten membuat pelanggan lokal lebih mudah mengingat dan mempercayainya.",
         "checks": ["nama serta kontak terbaca", "janji layanan yang realistis", "catatan pelanggan dan pembelian ulang"],
         "question": "Apa satu kalimat yang ingin diingat pelanggan dari depot Anda?",
+    },
+    "catalog-cap-delivery.jpg": {
+        "lead": "Foto lokal ini memperlihatkan muatan bal tutup galon Arga Tirta yang sedang disiapkan untuk pengiriman.",
+        "alt": "Muatan bal tutup galon Arga Tirta disiapkan untuk pengiriman ke pelanggan.",
+        "topic": "Pengiriman tutup galon",
+        "lesson": "Stok kecil seperti tutup galon sering baru terasa penting ketika habis pada jam ramai. Pemilik depot perlu menghitung pemakaian harian dan waktu kirim, bukan menunggu rak benar-benar kosong.",
+        "checks": ["jumlah per bal dan spesifikasi tutup", "kemasan tetap kering serta tertutup", "stok aman sesuai waktu pengiriman"],
+        "question": "Stok tutup galon di tempat Anda cukup untuk berapa hari?",
+    },
+    "catalog-blue-lit-depot.jpg": {
+        "lead": "Foto lokal ini menunjukkan unit depot yang sudah menyala dengan galon-galon disiapkan di area pengisian.",
+        "alt": "Unit depot Arga Tirta menyala dengan galon siap di area pengisian.",
+        "topic": "Unit aktif dan galon siap",
+        "lesson": "Lampu dan mesin yang menyala baru menunjukkan sistem aktif. Sebelum melayani pelanggan, aliran, kebersihan ruang isi, kondisi galon, dan hasil air tetap perlu diperiksa oleh operator.",
+        "checks": ["flush awal dan aliran pengisian", "kebersihan galon serta nozzle", "hasil air sebelum pelayanan pertama"],
+        "question": "Apa pemeriksaan pertama operator sebelum depot dibuka?",
+    },
+    "catalog-black-frame-depot.jpg": {
+        "lead": "Foto lokal ini memperlihatkan unit depot rangka hitam dengan tabung filtrasi dan area pengisian dalam satu susunan.",
+        "alt": "Unit depot rangka hitam Arga Tirta dengan tabung filtrasi dan area pengisian.",
+        "topic": "Susunan unit dan akses servis",
+        "lesson": "Susunan ringkas tetap harus menyisakan akses untuk backwash, pengecekan tekanan, dan penggantian media. Ruang servis sempit akan memperlambat perawatan.",
+        "checks": ["jarak buka housing dan tabung", "jalur pipa mudah diperiksa", "area galon masuk serta keluar tidak bertabrakan"],
+        "question": "Di lokasi Anda, sisi mana yang disediakan khusus untuk akses servis?",
+    },
+    "catalog-complete-black-system.jpg": {
+        "lead": "Foto lokal ini menampilkan sistem depot lengkap berangka hitam dengan housing, tabung, dan ruang pengisian yang tertata.",
+        "alt": "Sistem depot lengkap Arga Tirta berangka hitam dengan housing, tabung, dan ruang pengisian.",
+        "topic": "Sistem lengkap dan terukur",
+        "lesson": "Banyaknya komponen harus diikuti catatan fungsi dan jadwal perawatan. Operator perlu tahu bagian mana yang dicek harian, mingguan, dan saat angka tekanan mulai berubah.",
+        "checks": ["label fungsi setiap tahap", "tekanan normal sebagai pembanding", "kalender sanitasi dan penggantian media"],
+        "question": "Apakah setiap tahap pada unit Anda sudah punya jadwal pemeriksaan?",
     },
 }
 
@@ -281,7 +317,7 @@ def make_assets():
     sources = [SOURCE_ROOT / name for name in GALLERY_STORIES]
     missing = [str(p) for p in sources if not p.exists()]
     if missing:
-        raise FileNotFoundError("Missing real-photo sources: " + ", ".join(missing))
+        raise FileNotFoundError("Missing local Arga Tirta photo sources: " + ", ".join(missing))
     outputs = {}
     for src in sources:
         with Image.open(src) as original:
@@ -369,7 +405,11 @@ def build_plan():
             item["alt_text"] = story["alt"]
             item["source_asset"] = source_name
             item["asset_original"] = True
-            item["gallery_reference"] = f"{SITE}/#galeri"
+            item["gallery_reference"] = (
+                "local:katalog-arga-tirta.pdf"
+                if source_name.startswith("catalog-")
+                else f"{SITE}/#galeri"
+            )
             photo_index += 1
         if item["id"] in published_state:
             item.update(published_state[item["id"]])

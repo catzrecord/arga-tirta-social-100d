@@ -5,7 +5,8 @@
 - Queue: `threads-content-plan.json`
 - 100 days, 2 starter posts/day at 08:17 and 19:17 WIB
 - 28 mini-thread sessions with 3 replies each
-- 6 unique gallery photos are used once each; no repeated photo assets
+- 10 unique local Arga Tirta photos are used once each; no repeated photo assets
+- 4 additional originals were recovered from the local 2026 Arga Tirta catalog PDF
 - Workflow: `.github/workflows/arga-tirta-threads.yml`
 - Required secret: `THREADS_ACCESS_TOKEN`
 - Existing secrets reused: `META_TOKEN_ENCRYPTION_KEY`, `PUBLIC_ASSET_BASE_URL`

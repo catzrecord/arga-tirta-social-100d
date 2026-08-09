@@ -82,8 +82,20 @@ async function main() {
     const sessions = dayItems.map((item) => item.session).sort().join(",");
     if (sessions !== "AM,PM") fail(`day ${day} must contain AM and PM`);
   }
-  if (photoPosts !== 6) fail(`expected 6 unique real-photo posts, got ${photoPosts}`);
-  const expectedGallerySources = ["real-banner.webp", "real-01.webp", "real-02.webp", "real-03.webp", "real-05.webp", "real-08.webp"];
+  if (photoPosts !== 10) fail(`expected 10 unique local-photo posts, got ${photoPosts}`);
+  if (gallerySources.size !== photoPosts) fail(`each photo source must be used once; got ${gallerySources.size} sources for ${photoPosts} posts`);
+  const expectedGallerySources = [
+    "real-banner.jpg",
+    "real-01.jpg",
+    "real-02.jpg",
+    "catalog-cap-delivery.jpg",
+    "real-03.jpg",
+    "catalog-blue-lit-depot.jpg",
+    "real-05.jpg",
+    "catalog-black-frame-depot.jpg",
+    "catalog-complete-black-system.jpg",
+    "real-08.jpg",
+  ];
   for (const source of expectedGallerySources) {
     if (!gallerySources.has(source)) fail(`gallery source ${source} is not used`);
   }
