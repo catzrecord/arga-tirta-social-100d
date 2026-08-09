@@ -7,7 +7,7 @@ import json
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 
-from PIL import Image, ImageEnhance
+from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +18,44 @@ START_DATE = date(2026, 8, 10)
 WIB = timezone(timedelta(hours=7))
 SITE = "https://argatirta.web.id"
 WA = "https://wa.me/628128787299"
+
+
+GALLERY_SEQUENCE = [
+    "real-03.webp", "real-05.webp", "real-05.webp", "real-03.webp",
+    "real-banner.webp", "real-03.webp", "real-banner.webp", "real-05.webp",
+    "real-01.webp", "real-01.webp", "real-banner.webp", "real-banner.webp",
+    "real-03.webp", "real-08.webp", "real-05.webp", "real-banner.webp",
+    "real-03.webp", "real-01.webp", "real-02.webp", "real-05.webp",
+    "real-02.webp", "real-08.webp", "real-02.webp", "real-08.webp",
+    "real-08.webp", "real-05.webp", "real-03.webp", "real-02.webp",
+]
+
+GALLERY_STORIES = {
+    "real-banner.webp": {
+        "lead": "Foto ini menunjukkan unit depot Arga Tirta yang sudah selesai dirakit dan siap dikirim ke lokasi pelanggan.",
+        "alt": "Unit depot air minum Arga Tirta selesai dirakit dan siap dikirim serta dipasang.",
+    },
+    "real-01.webp": {
+        "lead": "Di foto ini pelanggan dan keluarganya berdiri di depan unit depot yang sudah terpasang dan menyala.",
+        "alt": "Pelanggan dan keluarganya bersama unit depot Arga Tirta yang sudah terpasang.",
+    },
+    "real-02.webp": {
+        "lead": "Di foto ini saya sedang berjabat tangan dengan pelanggan saat serah terima unit Arga Tirta.",
+        "alt": "Arga Tirta berjabat tangan dengan pelanggan saat serah terima unit depot.",
+    },
+    "real-03.webp": {
+        "lead": "Foto ini memperlihatkan unit RO dan mineral yang sudah terpasang rapi di lokasi pelanggan.",
+        "alt": "Unit depot RO dan mineral Arga Tirta terpasang rapi di lokasi pelanggan.",
+    },
+    "real-05.webp": {
+        "lead": "Foto lapangan ini memperlihatkan ruang pengisian, lampu UV, housing, dan tabung filtrasi dalam satu alur kerja.",
+        "alt": "Ruang pengisian dan rangkaian filtrasi depot air minum Arga Tirta.",
+    },
+    "real-08.webp": {
+        "lead": "Di foto ini kami berdiri bersama pemilik depot dan banner usaha mereka setelah instalasi selesai.",
+        "alt": "Tim Arga Tirta bersama pemilik depot dan banner usaha setelah instalasi selesai.",
+    },
+}
 
 
 # topic | business risk | three concrete checks | question for the reader
@@ -199,39 +237,50 @@ def make_evening(day_no: int, topic: dict, cta: str, has_photo: bool):
     return compact(text)
 
 
+def make_photo_evening(topic: dict, cta: str, source_name: str):
+    story = GALLERY_STORIES[source_name]
+    checks = topic["checks"]
+    text = (
+        f"{story['lead']}\n\n"
+        f"Yang terlihat di foto adalah hasil akhirnya. Pelajaran bisnisnya berkaitan dengan {topic['topic'].lower()}: "
+        f"{topic['risk'].lower()}.\n\n"
+        f"Sebelum mengambil keputusan, cek 1) {checks[0]}, 2) {checks[1]}, dan 3) {checks[2]}.\n\n"
+        f"{topic['question']}"
+    )
+    if cta:
+        text += f"\n\n{cta}"
+    return compact(text)
+
+
 def make_assets():
     ASSET_ROOT.mkdir(parents=True, exist_ok=True)
-    sources = [SOURCE_ROOT / "real-banner.webp", SOURCE_ROOT / "real-03.webp", SOURCE_ROOT / "real-05.webp"]
+    sources = [SOURCE_ROOT / name for name in GALLERY_STORIES]
     missing = [str(p) for p in sources if not p.exists()]
     if missing:
         raise FileNotFoundError("Missing real-photo sources: " + ", ".join(missing))
-    outputs = []
-    for idx in range(28):
-        src = sources[idx % len(sources)]
+    outputs = {}
+    for src in sources:
         with Image.open(src) as original:
             image = original.convert("RGB")
-            target_ratio = 4 / 5
-            source_ratio = image.width / image.height
-            if source_ratio > target_ratio:
-                crop_w = int(image.height * target_ratio)
-                slack = image.width - crop_w
-                anchors = (0.28, 0.5, 0.72)
-                left = int(slack * anchors[(idx // len(sources)) % len(anchors)])
-                image = image.crop((left, 0, left + crop_w, image.height))
-            else:
-                crop_h = int(image.width / target_ratio)
-                top = max(0, (image.height - crop_h) // 2)
-                image = image.crop((0, top, image.width, top + crop_h))
-            image = image.resize((1080, 1350), Image.Resampling.LANCZOS)
-            brightness = (0.98, 1.0, 1.02)[idx % 3]
-            image = ImageEnhance.Brightness(image).enhance(brightness)
-            out = ASSET_ROOT / f"field-{idx + 1:02d}.jpg"
-            image.save(out, "JPEG", quality=91, optimize=True, progressive=True)
-            outputs.append(out)
+            out = ASSET_ROOT / f"gallery-{src.stem}.jpg"
+            image.save(out, "JPEG", quality=94, optimize=True, progressive=True)
+            outputs[src.name] = out
     return outputs
 
 
 def build_plan():
+    published_state = {}
+    if PLAN_PATH.exists():
+        existing = json.loads(PLAN_PATH.read_text(encoding="utf-8"))
+        for item in existing.get("items", []):
+            if item.get("status") == "published":
+                published_state[item["id"]] = {
+                    key: value
+                    for key, value in item.items()
+                    if key.startswith("published_")
+                    or key in {"status", "threads_media_id", "threads_url"}
+                }
+
     topics = parse_topics()
     photos = make_assets()
     thread_days = mini_days()
@@ -244,7 +293,7 @@ def build_plan():
         is_thread = day_no in thread_days
         morning, replies = make_morning(day_no, topic, is_thread)
         morning_at = datetime.combine(current, time(8, 17), WIB)
-        queue.append({
+        morning_item = {
             "id": f"AT-THR-D{day_no:03d}-AM",
             "day": day_no,
             "date": current.isoformat(),
@@ -259,11 +308,19 @@ def build_plan():
             "cta_type": "conversation",
             "status": "queued_auto",
             "approval_status": "approved",
-        })
+        }
+        if morning_item["id"] in published_state:
+            morning_item.update(published_state[morning_item["id"]])
+        queue.append(morning_item)
 
         has_photo = weekday in {2, 5}
         cta_type, cta = cta_for(day_no, weekday, "PM")
-        evening = make_evening(day_no, topic, cta, has_photo)
+        source_name = GALLERY_SEQUENCE[photo_index] if has_photo else None
+        evening = (
+            make_photo_evening(topic, cta, source_name)
+            if has_photo
+            else make_evening(day_no, topic, cta, False)
+        )
         evening_at = datetime.combine(current, time(19, 17), WIB)
         item = {
             "id": f"AT-THR-D{day_no:03d}-PM",
@@ -282,12 +339,16 @@ def build_plan():
             "approval_status": "approved",
         }
         if has_photo:
-            asset = photos[photo_index]
+            asset = photos[source_name]
+            story = GALLERY_STORIES[source_name]
             item["asset"] = asset.relative_to(ROOT / "public").as_posix()
-            item["alt_text"] = f"Foto asli lapangan Arga Tirta tentang {topic['topic'].lower()}, dokumentasi {current.isoformat()}."
-            item["source_asset"] = ["real-banner.webp", "real-03.webp", "real-05.webp"][photo_index % 3]
+            item["alt_text"] = story["alt"]
+            item["source_asset"] = source_name
             item["asset_original"] = True
+            item["gallery_reference"] = f"{SITE}/#galeri"
             photo_index += 1
+        if item["id"] in published_state:
+            item.update(published_state[item["id"]])
         queue.append(item)
 
     payload = {

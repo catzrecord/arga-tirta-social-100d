@@ -27,6 +27,7 @@ async function main() {
   let threadSessions = 0;
   let replyPosts = 0;
   let ctaPosts = 0;
+  const gallerySources = new Set();
   const byDay = new Map();
 
   for (const item of items) {
@@ -62,6 +63,8 @@ async function main() {
       photoPosts += 1;
       if (!item.asset_original) fail(`${item.id} image is not marked original`);
       if (!item.asset || !item.alt_text) fail(`${item.id} is missing asset metadata`);
+      if (!item.source_asset || !item.gallery_reference) fail(`${item.id} is missing gallery provenance`);
+      gallerySources.add(item.source_asset);
       const assetPath = path.resolve(root, "public", item.asset);
       if (!assetPath.startsWith(path.resolve(root, "public") + path.sep)) fail(`${item.id} asset escapes public`);
       const stat = await fs.stat(assetPath);
@@ -80,11 +83,15 @@ async function main() {
     if (sessions !== "AM,PM") fail(`day ${day} must contain AM and PM`);
   }
   if (photoPosts !== 28) fail(`expected 28 real-photo posts, got ${photoPosts}`);
+  const expectedGallerySources = ["real-banner.webp", "real-01.webp", "real-02.webp", "real-03.webp", "real-05.webp", "real-08.webp"];
+  for (const source of expectedGallerySources) {
+    if (!gallerySources.has(source)) fail(`gallery source ${source} is not used`);
+  }
   if (threadSessions !== 28) fail(`expected 28 mini-thread sessions, got ${threadSessions}`);
   if (replyPosts !== 84) fail(`expected 84 reply posts, got ${replyPosts}`);
   if (ctaPosts !== 71) fail(`expected 71 CTA posts, got ${ctaPosts}`);
 
-  console.log(JSON.stringify({ result: "valid", starters: items.length, reply_posts: replyPosts, total_publications: items.length + replyPosts, photo_posts: photoPosts, thread_sessions: threadSessions, cta_posts: ctaPosts }, null, 2));
+  console.log(JSON.stringify({ result: "valid", starters: items.length, reply_posts: replyPosts, total_publications: items.length + replyPosts, photo_posts: photoPosts, gallery_sources: gallerySources.size, thread_sessions: threadSessions, cta_posts: ctaPosts }, null, 2));
 }
 
 main().catch((error) => {
