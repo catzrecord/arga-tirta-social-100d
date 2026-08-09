@@ -91,12 +91,16 @@
       }
     ],
     "final_caption": "Detail kecil yang ikut menjaga isi di dalamnya.\n\nDetail kecil tetap layak dipilih dengan cermat karena dipakai berulang setiap hari.\n\nDetail kebutuhannya bisa dibicarakan pelan-pelan.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18105568841157404",
+    "instagram_url": "https://www.instagram.com/p/Db0hiFum8HB/",
+    "published_at": "2026-08-09T13:15:58+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 4,
