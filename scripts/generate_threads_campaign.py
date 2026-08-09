@@ -21,39 +21,64 @@ WA = "https://wa.me/628128787299"
 
 
 GALLERY_SEQUENCE = [
-    "real-03.webp", "real-05.webp", "real-05.webp", "real-03.webp",
-    "real-banner.webp", "real-03.webp", "real-banner.webp", "real-05.webp",
-    "real-01.webp", "real-01.webp", "real-banner.webp", "real-banner.webp",
-    "real-03.webp", "real-08.webp", "real-05.webp", "real-banner.webp",
-    "real-03.webp", "real-01.webp", "real-02.webp", "real-05.webp",
-    "real-02.webp", "real-08.webp", "real-02.webp", "real-08.webp",
-    "real-08.webp", "real-05.webp", "real-03.webp", "real-02.webp",
+    "real-banner.webp",
+    "real-01.webp",
+    "real-02.webp",
+    "real-03.webp",
+    "real-05.webp",
+    "real-08.webp",
 ]
+
+PHOTO_DAYS = {3, 6, 10, 13, 17, 20}
 
 GALLERY_STORIES = {
     "real-banner.webp": {
         "lead": "Foto ini menunjukkan unit depot Arga Tirta yang sudah selesai dirakit dan siap dikirim ke lokasi pelanggan.",
         "alt": "Unit depot air minum Arga Tirta selesai dirakit dan siap dikirim serta dipasang.",
+        "topic": "Unit siap kirim",
+        "lesson": "Sebelum unit berangkat, lokasi pelanggan juga harus benar-benar siap. Instalasi yang rapi dimulai dari ukuran ruang dan jalur masuk yang jelas, bukan dari perkiraan saat unit sudah tiba.",
+        "checks": ["akses unit menuju lokasi", "ukuran ruang dan jarak servis", "kesiapan listrik, tandon, dan pipa"],
+        "question": "Lokasi depot Anda sudah diukur sampai jalur masuk unitnya?",
     },
     "real-01.webp": {
         "lead": "Di foto ini pelanggan dan keluarganya berdiri di depan unit depot yang sudah terpasang dan menyala.",
         "alt": "Pelanggan dan keluarganya bersama unit depot Arga Tirta yang sudah terpasang.",
+        "topic": "Unit siap beroperasi",
+        "lesson": "Mesin menyala adalah awal operasional, bukan akhir pekerjaan. Pemilik perlu memahami kebiasaan harian yang menjaga hasil tetap konsisten setelah tim instalasi pulang.",
+        "checks": ["SOP buka dan tutup", "jadwal sanitasi serta penggantian filter", "kontak dukungan saat muncul perubahan"],
+        "question": "Siapa yang akan memegang checklist harian di depot Anda?",
     },
     "real-02.webp": {
         "lead": "Di foto ini saya sedang berjabat tangan dengan pelanggan saat serah terima unit Arga Tirta.",
         "alt": "Arga Tirta berjabat tangan dengan pelanggan saat serah terima unit depot.",
+        "topic": "Serah terima pelanggan",
+        "lesson": "Jabat tangan bukan sekadar foto penutup. Pada tahap ini pelanggan harus menerima penjelasan unit, cara operasi, jadwal perawatan, serta jalur komunikasi setelah pemasangan.",
+        "checks": ["spesifikasi dan hasil pekerjaan", "pelatihan operator", "garansi serta kontak layanan"],
+        "question": "Saat serah terima, bagian apa yang paling ingin Anda pahami lebih dulu?",
     },
     "real-03.webp": {
         "lead": "Foto ini memperlihatkan unit RO dan mineral yang sudah terpasang rapi di lokasi pelanggan.",
         "alt": "Unit depot RO dan mineral Arga Tirta terpasang rapi di lokasi pelanggan.",
+        "topic": "Sistem RO dan mineral",
+        "lesson": "Susunan unit terlihat sederhana dari depan, tetapi pemilihannya tetap harus mengikuti karakter air baku, target kapasitas, dan ruang untuk perawatan rutin.",
+        "checks": ["hasil uji air baku", "target produksi harian", "akses penggantian media dan servis"],
+        "question": "Target produksi depot Anda berapa galon per hari?",
     },
     "real-05.webp": {
         "lead": "Foto lapangan ini memperlihatkan ruang pengisian, lampu UV, housing, dan tabung filtrasi dalam satu alur kerja.",
         "alt": "Ruang pengisian dan rangkaian filtrasi depot air minum Arga Tirta.",
+        "topic": "Alur filtrasi dan pengisian",
+        "lesson": "Peralatan yang lengkap tetap bergantung pada kebiasaan operator. Tekanan, jadwal filter, kebersihan nozzle, dan sanitasi perlu dicatat agar masalah terlihat sebelum mengganggu pelanggan.",
+        "checks": ["tekanan dan debit", "jadwal filter serta sanitasi", "kebersihan galon dan nozzle"],
+        "question": "Bagian mana yang paling sering diperiksa operator setiap pagi?",
     },
     "real-08.webp": {
         "lead": "Di foto ini kami berdiri bersama pemilik depot dan banner usaha mereka setelah instalasi selesai.",
         "alt": "Tim Arga Tirta bersama pemilik depot dan banner usaha setelah instalasi selesai.",
+        "topic": "Identitas usaha pelanggan",
+        "lesson": "Depot bukan hanya soal mesin. Nama usaha, nomor yang mudah dihubungi, pelayanan, dan proses yang konsisten membuat pelanggan lokal lebih mudah mengingat dan mempercayainya.",
+        "checks": ["nama serta kontak terbaca", "janji layanan yang realistis", "catatan pelanggan dan pembelian ulang"],
+        "question": "Apa satu kalimat yang ingin diingat pelanggan dari depot Anda?",
     },
 }
 
@@ -239,15 +264,14 @@ def make_evening(day_no: int, topic: dict, cta: str, has_photo: bool):
 
 def make_photo_evening(topic: dict, cta: str, source_name: str):
     story = GALLERY_STORIES[source_name]
-    checks = topic["checks"]
+    checks = story["checks"]
     text = (
         f"{story['lead']}\n\n"
-        f"Yang terlihat di foto adalah hasil akhirnya. Pelajaran bisnisnya berkaitan dengan {topic['topic'].lower()}: "
-        f"{topic['risk'].lower()}.\n\n"
-        f"Sebelum mengambil keputusan, cek 1) {checks[0]}, 2) {checks[1]}, dan 3) {checks[2]}.\n\n"
-        f"{topic['question']}"
+        f"{story['lesson']}\n\n"
+        f"Checklist: 1) {checks[0]}; 2) {checks[1]}; 3) {checks[2]}.\n\n"
+        f"{story['question']}"
     )
-    if cta:
+    if cta and len(text) + len(cta) + 2 <= 500:
         text += f"\n\n{cta}"
     return compact(text)
 
@@ -313,7 +337,7 @@ def build_plan():
             morning_item.update(published_state[morning_item["id"]])
         queue.append(morning_item)
 
-        has_photo = weekday in {2, 5}
+        has_photo = day_no in PHOTO_DAYS
         cta_type, cta = cta_for(day_no, weekday, "PM")
         source_name = GALLERY_SEQUENCE[photo_index] if has_photo else None
         evening = (
@@ -329,7 +353,7 @@ def build_plan():
             "time_wib": "19:17",
             "scheduled_at": evening_at.isoformat(),
             "session": "PM",
-            "topic": topic["topic"],
+            "topic": GALLERY_STORIES[source_name]["topic"] if has_photo else topic["topic"],
             "format": "standalone",
             "media_type": "IMAGE" if has_photo else "TEXT",
             "text": evening,
