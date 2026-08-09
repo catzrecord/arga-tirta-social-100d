@@ -27,8 +27,22 @@
         "3/3 Terakhir, pastikan hasil uji laboratorium terbaru. Dari tiga catatan itu keputusan belanja, servis, atau perubahan SOP jadi lebih masuk akal. Sumber air di lokasi Anda sumur atau jaringan perpipaan?"
       ],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18453000325136935",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/Db0FY7LILMl",
+      "published_at": "2026-08-09T09:09:57+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": [
+        "18129725068635682",
+        "18005937383768613",
+        "18097649744104854"
+      ],
+      "published_reply_urls": [
+        "https://www.threads.com/@cv.argatirta/post/Db0FZVQoAr7",
+        "https://www.threads.com/@cv.argatirta/post/Db0FaNfIBpa",
+        "https://www.threads.com/@cv.argatirta/post/Db0FbDUoMwG"
+      ]
     },
     {
       "id": "AT-THR-D001-PM",
