@@ -132,12 +132,16 @@
       }
     ],
     "final_caption": "Sebelum air mengalir, sistemnya perlu dipikirkan.\n\nSetiap lokasi punya kebutuhan berbeda. Karena itu, prosesnya dimulai dengan melihat kondisi nyata.\n\nCeritakan kondisi ruang dan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18620644612019538",
+    "instagram_url": "https://www.instagram.com/p/Db3JjjdG-XE/",
+    "published_at": "2026-08-10T13:44:07+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 5,
