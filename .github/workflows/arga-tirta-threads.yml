@@ -2,8 +2,10 @@ name: Arga Tirta Threads Scheduled Publisher
 
 on:
   schedule:
-    # 08:17 WIB = 01:17 UTC; 19:17 WIB = 12:17 UTC
-    - cron: "17 1,12 * * *"
+    # Target: 08:17 and 19:17 WIB. Retry every 15 minutes for 45 minutes
+    # because GitHub-hosted scheduled runs can be delayed or dropped.
+    - cron: "17,32,47 1,12 * * *"
+    - cron: "2 2,13 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -83,4 +85,4 @@ jobs:
           echo "- Result: ${{ steps.publisher.outputs.result || 'workflow_failed' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Queue item: ${{ steps.publisher.outputs.post_id || '-' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Threads URL: ${{ steps.publisher.outputs.threads_url || '-' }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Schedule: 08:17 and 19:17 WIB" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: 08:17 and 19:17 WIB, with 15-minute retries" >> "$GITHUB_STEP_SUMMARY"
