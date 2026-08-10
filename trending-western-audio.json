@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-08-10",
+  "source_url": "https://buffer.com/resources/trending-audio-instagram/",
+  "policy": "Only exact title and artist matches from this non-Indonesian catalog may be attached.",
+  "tracks": [
+    {"key": "august", "title": "august", "artist": "Taylor Swift", "mood": "warm reflective field note"},
+    {"key": "end-of-august", "title": "End of August", "artist": "Noah Kahan", "mood": "product and place reveal"},
+    {"key": "sometimes", "title": "Sometimes", "artist": "Fleetwood Mac", "mood": "timeless lifestyle reflection"},
+    {"key": "sweetly", "title": "sweetly (71.78)", "artist": "jkl", "mood": "calm feel-good instrumental"},
+    {"key": "young-beautiful", "title": "Young and Beautiful", "artist": "Lana Del Rey", "mood": "cinematic craft detail"},
+    {"key": "summer-inside", "title": "summer on the inside", "artist": "warner case, Jean Tonique & Max Kaluza", "mood": "day-in-the-life montage"},
+    {"key": "respect", "title": "Respect", "artist": "Aretha Franklin", "mood": "confident product proof"},
+    {"key": "love-story", "title": "Love Story", "artist": "ViOLiNiA Zhanna Stelmakh", "mood": "elegant reveal"}
+  ]
+}

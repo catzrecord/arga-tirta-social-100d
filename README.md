@@ -23,8 +23,7 @@ Kampanye Instagram 100 hari untuk Arga Tirta.
 
 - 100 post terjadwal, 5 Agustus sampai 12 November 2026
 - 57 single photo
-- 29 photo carousel
-- 14 text-only carousel, satu kali setiap minggu
+- 29 rangkaian foto dan 14 rangkaian teks yang dirender menjadi Reel 9:16 selama masih antre
 - 200 aset final berukuran 1080 x 1350
 - Jadwal otomatis 19.17 WIB
 - Logo AT konsisten di kanan bawah
@@ -33,6 +32,7 @@ Kampanye Instagram 100 hari untuk Arga Tirta.
 
 ```powershell
 npm run validate
+npm run reels
 npm run build
 npm run verify:local
 ```
@@ -42,6 +42,12 @@ Dashboards:
 - https://arga-tirta-social-100d.vercel.app/
 - https://catzrecord.github.io/arga-tirta-social-100d/
 
+## Reel dan audio Barat
+
+`npm run reels` memakai seluruh gambar carousel yang sudah ada, menatanya ke video 1080×1920 H.264 dengan cut cepat, lalu menyimpan MP4 di folder hari yang sama. Post yang telanjur live dipertahankan sebagaimana adanya.
+
+Setiap Reel memakai `trending-western-audio.json`, allowlist musik Barat yang diverifikasi 10 Agustus 2026. Saat publish, Instagram Audio API mengecek respons trending saat itu dan hanya memasang kecocokan judul plus artis yang tepat. Kredensial Audio API memakai Facebook Login dan disimpan sebagai `META_AUDIO_ACCESS_TOKEN` serta `META_AUDIO_INSTAGRAM_USER_ID`, terpisah dari token Instagram Login yang sudah berjalan.
+
 ## Hubungkan akun Instagram
 
 Jalankan helper berikut. Token dimasukkan melalui prompt tersembunyi dan langsung
@@ -49,4 +55,11 @@ disimpan sebagai GitHub Actions secret.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\setup_meta_secrets.ps1
+```
+
+
+Setup interaktif kredensial musik Reel:
+
+```bash
+bash scripts/setup_audio_secrets.sh
 ```

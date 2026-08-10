@@ -7,6 +7,9 @@ const plan = JSON.parse(
   await fs.readFile(path.join(root, "threads-content-plan.json"), "utf8"),
 );
 const items = plan.items ?? [];
+const instagramPlan = JSON.parse(
+  await fs.readFile(path.join(root, "content-plan.json"), "utf8"),
+);
 
 const esc = (value) =>
   String(value ?? "")
@@ -71,6 +74,7 @@ const html = `<!doctype html>
         <h1>Threads<br><em>100 Hari.</em></h1>
         <p class="intro">Konten organik seputar bisnis depot isi ulang, air bersih dan higienis, perawatan sistem, serta pengalaman lapangan Arga Tirta. Terjadwal dua kali sehari pukul 08.17 dan 19.17 WIB.</p>
         <a class="profile" href="https://www.threads.com/@cv.argatirta" target="_blank" rel="noreferrer">Buka @cv.argatirta ↗</a>
+        <a class="profile" href="instagram.html">Instagram 100D Reels →</a>
       </div>
     </div>
     <section class="stats" aria-label="Ringkasan kampanye">
@@ -133,6 +137,21 @@ await fs.copyFile(
   path.join(root, "threads-content-plan.json"),
   path.join(root, "public", "threads-content-plan.json"),
 );
+await fs.copyFile(
+  path.join(root, "content-plan.json"),
+  path.join(root, "public", "content-plan.json"),
+);
+const instagramCards = instagramPlan.map((item) => {
+  const media = item.post_type === "reel"
+    ? `<video controls playsinline preload="metadata" poster="${esc(item.asset)}" src="${esc(item.reel_asset)}"></video>`
+    : `<img loading="lazy" src="${esc(item.asset)}" alt="${esc(item.title)}">`;
+  const badge = item.post_type === "reel" ? `REEL · ${item.slide_count} FRAME` : item.post_type.toUpperCase();
+  return `<article><div class="cover">${media}<span>${badge}</span></div><div class="body"><small>DAY ${String(item.id).padStart(3, "0")} · ${esc(item.date)} · ${esc(item.time_wib)} WIB</small><h2>${esc(item.title)}</h2><b>${item.status === "published" ? "LIVE" : "QUEUED"}</b></div></article>`;
+}).join("\n");
+const instagramHtml = `<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Arga Tirta · Instagram 100D</title><style>
+:root{font-family:Inter,Arial,sans-serif;color:#f5f3ec;background:#02070b}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% 0,#0a3440,#02070b 38%);padding:28px}header{max-width:1320px;margin:0 auto 30px;border-top:4px solid #51ceda;padding:36px 0 12px}a{color:#51ceda}small{letter-spacing:.12em;color:#9db2b5;font-weight:700}h1{font-size:clamp(48px,8vw,112px);line-height:.85;letter-spacing:-.07em;margin:18px 0;text-transform:uppercase}header p{max-width:760px;color:#aebfc1;font-size:17px;line-height:1.5}.grid{max-width:1320px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}article{background:#071017;border:1px solid #18333b;border-radius:16px;overflow:hidden}.cover{position:relative}.cover img,.cover video{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;background:#000}.cover span{position:absolute;top:10px;right:10px;background:#faca1e;color:#061015;padding:7px 10px;border-radius:18px;font-weight:900;font-size:10px}.body{padding:14px}.body h2{font-size:17px;line-height:1.08;text-transform:uppercase;margin:10px 0}.body b{color:#51ceda;font-size:11px;letter-spacing:.12em}@media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:640px){body{padding:14px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+</style></head><body><header><small>ARGA TIRTA · INSTAGRAM 100 HARI</small><h1>Carousel menjadi Reel.</h1><p>Seluruh rangkaian gambar yang masih antre dipertahankan sebagai sumber visual lalu dirender ke Reel 9:16. Musik Barat trending dipilih ulang melalui Instagram Audio API saat publish. · <a href="index.html">Kembali ke Threads</a></p></header><main class="grid">${instagramCards}</main></body></html>`;
+await fs.writeFile(path.join(root, "public", "instagram.html"), instagramHtml);
 console.log(
   `Built Threads dashboard: ${days} days, ${items.length} starters, ${replies} replies.`,
 );

@@ -12,6 +12,10 @@ const graphHost = process.env.META_GRAPH_HOST || "graph.instagram.com";
 const graphBase = `https://${graphHost}/${graphVersion}`;
 const accountId = process.env.INSTAGRAM_USER_ID;
 const accessToken = process.env.META_ACCESS_TOKEN;
+const audioGraphHost = process.env.META_AUDIO_GRAPH_HOST || "graph.facebook.com";
+const audioGraphBase = `https://${audioGraphHost}/${graphVersion}`;
+const audioAccountId = process.env.META_AUDIO_INSTAGRAM_USER_ID || accountId;
+const audioAccessToken = process.env.META_AUDIO_ACCESS_TOKEN;
 const assetBase = (process.env.PUBLIC_ASSET_BASE_URL || "").replace(/\/+$/, "");
 const mode = argument("mode") || process.env.ARGA_TIRTA_PUBLISH_MODE || "due";
 const requestedId = Number(argument("post-id") || process.env.ARGA_TIRTA_POST_ID || 0);
@@ -88,6 +92,11 @@ function assetUrls(item) {
   return assets.map((asset) => assetUrl(item, asset));
 }
 
+function publishAssetUrls(item) {
+  if (item.post_type === "reel") return [assetUrl(item, item.reel_asset)];
+  return assetUrls(item);
+}
+
 function altText(item, slideIndex = 0) {
   const title = String(item.title || "Arga Tirta field note").replace(/\s+/g, " ").trim();
   const slide =
@@ -136,18 +145,70 @@ async function graph(pathname, params = {}, method = "GET") {
   );
 }
 
-async function verifyAsset(url) {
+async function audioGraph(pathname, params = {}, method = "GET") {
+  if (!audioAccessToken) {
+    throw new Error("META_AUDIO_ACCESS_TOKEN is required for Western trending Reel audio");
+  }
+  const url = new URL(`${audioGraphBase}/${pathname.replace(/^\/+/, "")}`);
+  const body = new URLSearchParams({ ...params, access_token: audioAccessToken });
+  if (method === "GET") {
+    for (const [key, value] of body) url.searchParams.set(key, value);
+    return responseJson(await fetch(url, { headers: { accept: "application/json" } }));
+  }
+  return responseJson(await fetch(url, {
+    method,
+    headers: { accept: "application/json", "content-type": "application/x-www-form-urlencoded" },
+    body,
+  }));
+}
+
+async function verifyAsset(url, expectedType = "image") {
   const response = await fetch(url, { method: "HEAD", redirect: "follow" });
   if (!response.ok) throw new Error(`Asset returned HTTP ${response.status}: ${url}`);
   const contentType = response.headers.get("content-type") || "";
-  if (!contentType.startsWith("image/")) {
-    throw new Error(`Asset is not an image (${contentType || "missing content-type"}): ${url}`);
+  if (!contentType.startsWith(`${expectedType}/`)) {
+    throw new Error(`Asset is not ${expectedType} (${contentType || "missing content-type"}): ${url}`);
   }
   return {
     url: response.url,
     contentType,
     contentLength: Number(response.headers.get("content-length") || 0),
   };
+}
+
+function normalizeAudio(value) {
+  return String(value || "").normalize("NFKD").replace(/[^a-z0-9]+/gi, " ").trim().toLowerCase();
+}
+
+async function loadWesternAudioCatalog() {
+  const payload = JSON.parse(await fs.readFile(path.join(root, "trending-western-audio.json"), "utf8"));
+  return payload.tracks || [];
+}
+
+function exactCatalogMatch(audio, track) {
+  const title = normalizeAudio(audio.title);
+  const artist = normalizeAudio(audio.display_artist);
+  return title === normalizeAudio(track.title) && artist.includes(normalizeAudio(track.artist));
+}
+
+async function selectWesternTrendingAudio(item) {
+  if (item.post_type !== "reel") return null;
+  const catalog = await loadWesternAudioCatalog();
+  const byKey = new Map(catalog.map((track) => [track.key, track]));
+  const orderedKeys = [item.audio?.western_audio_key, ...(item.audio?.western_candidates || [])].filter(Boolean);
+  const ordered = [...new Set(orderedKeys)].map((key) => byKey.get(key)).filter(Boolean);
+  if (!ordered.length) throw new Error(`Reel ${item.id} has no approved Western audio candidates`);
+
+  const trending = await audioGraph("ig_audio", {
+    audio_type: "music",
+    user_id: audioAccountId,
+  });
+  for (const track of ordered) {
+    const match = (trending.audio || []).find((audio) => exactCatalogMatch(audio, track));
+    if (match) return { ...match, selection: "trending_default", catalog_key: track.key };
+  }
+
+  throw new Error(`No approved Western music appears in the current Instagram trending list for Reel ${item.id}`);
 }
 
 async function verifyAccount() {
@@ -205,7 +266,29 @@ async function createImageContainer(item, imageUrl, slideIndex = 0, isCarouselIt
   }
 }
 
-async function createContainer(item, imageUrls) {
+async function createReelContainer(item, videoUrl, audio) {
+  const params = {
+    media_type: "REELS",
+    video_url: videoUrl,
+    share_to_feed: "true",
+    audio_configuration: JSON.stringify({
+      audio_id: audio.audio_id,
+      audio_volume: Number(item.audio?.audio_volume ?? 100),
+      video_volume: Number(item.audio?.video_volume ?? 0),
+    }),
+    ...captionParams(item),
+  };
+  try {
+    return await audioGraph(`${audioAccountId}/media`, params, "POST");
+  } catch (error) {
+    if (!/is_ai_generated|parameter/i.test(error.message) || !params.is_ai_generated) throw error;
+    delete params.is_ai_generated;
+    return audioGraph(`${audioAccountId}/media`, params, "POST");
+  }
+}
+
+async function createContainer(item, imageUrls, audio = null) {
+  if (item.post_type === "reel") return createReelContainer(item, imageUrls[0], audio);
   if (item.post_type !== "carousel") {
     return createImageContainer(item, imageUrls[0]);
   }
@@ -234,10 +317,12 @@ async function createContainer(item, imageUrls) {
   }
 }
 
-async function waitForContainer(containerId) {
+async function waitForContainer(containerId, viaAudioApi = false) {
   const deadline = Date.now() + 120_000;
   while (Date.now() < deadline) {
-    const status = await graph(`${containerId}?fields=status_code,status`);
+    const status = viaAudioApi
+      ? await audioGraph(`${containerId}?fields=status_code,status`)
+      : await graph(`${containerId}?fields=status_code,status`);
     if (status.status_code === "FINISHED") return status;
     if (status.status_code === "ERROR" || status.status_code === "EXPIRED") {
       throw new Error(`Meta media container ${status.status_code}: ${status.status || "unknown"}`);
@@ -247,13 +332,22 @@ async function waitForContainer(containerId) {
   throw new Error("Timed out waiting for the Meta media container");
 }
 
-async function updatePlan(plan, item, media, state) {
+async function updatePlan(plan, item, media, state, audio = null) {
   const target = plan.find((entry) => Number(entry.id) === Number(item.id));
   target.status = "published";
   target.instagram_media_id = media.id;
   if (media.permalink) target.instagram_url = media.permalink;
   target.published_at = media.timestamp || new Date().toISOString();
   target.published_via = state;
+  if (audio) {
+    target.published_audio = {
+      audio_id: audio.audio_id,
+      title: audio.title,
+      artist: audio.display_artist,
+      selection: audio.selection,
+      catalog_key: audio.catalog_key,
+    };
+  }
   await fs.writeFile(planPath, `${JSON.stringify(plan, null, 2)}\n`);
 }
 
@@ -288,7 +382,9 @@ async function main() {
 
   if (mode === "verify") {
     const next = item || plan.find((entry) => entry.status === "queued_auto");
-    const assets = next ? await Promise.all(assetUrls(next).map(verifyAsset)) : [];
+    const urls = next ? publishAssetUrls(next) : [];
+    const expectedType = next?.post_type === "reel" ? "video" : "image";
+    const assets = await Promise.all(urls.map((url) => verifyAsset(url, expectedType)));
     await setOutput({
       result: "verified",
       username: account.username || "",
@@ -303,6 +399,27 @@ async function main() {
     return;
   }
 
+  if (mode === "audio-check") {
+    const next = item?.post_type === "reel"
+      ? item
+      : plan.find((entry) => entry.status === "queued_auto" && entry.post_type === "reel");
+    if (!next) {
+      await setOutput({ result: "no_reel_queued", now_wib: currentWib });
+      return;
+    }
+    const audio = await selectWesternTrendingAudio(next);
+    await setOutput({
+      result: "western_audio_verified",
+      username: account.username || "",
+      post_id: next.id,
+      audio_title: audio.title || "",
+      audio_artist: audio.display_artist || "",
+      audio_selection: audio.selection,
+      now_wib: currentWib,
+    });
+    return;
+  }
+
   if (mode === "deploy") {
     const next = item || plan.find((entry) => entry.status === "queued_auto");
     await setOutput({
@@ -311,8 +428,8 @@ async function main() {
       account_type: account.account_type || "",
       post_id: next?.id || "",
       post_type: next?.post_type || "",
-      asset_count: next ? assetUrls(next).length : 0,
-      asset_url: next ? assetUrls(next)[0] : "",
+      asset_count: next ? publishAssetUrls(next).length : 0,
+      asset_url: next ? publishAssetUrls(next)[0] : "",
       now_wib: currentWib,
     });
     return;
@@ -325,10 +442,12 @@ async function main() {
       return;
     }
     requireApproved(next);
-    const imageUrls = assetUrls(next);
-    await Promise.all(imageUrls.map(verifyAsset));
-    const container = await createContainer(next, imageUrls);
-    await waitForContainer(container.id);
+    const imageUrls = publishAssetUrls(next);
+    const expectedType = next.post_type === "reel" ? "video" : "image";
+    await Promise.all(imageUrls.map((url) => verifyAsset(url, expectedType)));
+    const audio = await selectWesternTrendingAudio(next);
+    const container = await createContainer(next, imageUrls, audio);
+    await waitForContainer(container.id, next.post_type === "reel");
     await setOutput({
       result: "preflight_ready",
       username: account.username || "",
@@ -347,17 +466,6 @@ async function main() {
     await setOutput({ result: "no_post_due", now_wib: currentWib });
     return;
   }
-  // Pada run terjadwal (mode "due"), post yang belum di-approve bukanlah kegagalan.
-  // Cukup catat sebagai "not_approved" dan selesai sukses agar tidak spam email failed.
-  // Mode manual (preflight / publish-id) tetap strict lewat requireApproved().
-  if (mode === "due" && item.status !== "published" && item.approval_status !== "approved") {
-    await setOutput({
-      result: "not_approved",
-      post_id: item.id,
-      now_wib: currentWib,
-    });
-    return;
-  }
   requireApproved(item);
   if (item.status === "published") {
     await setOutput({
@@ -368,8 +476,9 @@ async function main() {
     return;
   }
 
-  const imageUrls = assetUrls(item);
-  await Promise.all(imageUrls.map(verifyAsset));
+  const imageUrls = publishAssetUrls(item);
+  const expectedType = item.post_type === "reel" ? "video" : "image";
+  await Promise.all(imageUrls.map((url) => verifyAsset(url, expectedType)));
   const existing = await findExisting(item);
   if (existing) {
     await updatePlan(plan, item, existing, "github_actions_reconciled");
@@ -381,15 +490,16 @@ async function main() {
     return;
   }
 
-  const container = await createContainer(item, imageUrls);
-  await waitForContainer(container.id);
-  const published = await graph(
-    `${accountId}/media_publish`,
-    { creation_id: container.id },
-    "POST",
-  );
-  const media = await graph(`${published.id}?fields=id,permalink,timestamp`);
-  await updatePlan(plan, item, media, "github_actions_graph_api");
+  const audio = await selectWesternTrendingAudio(item);
+  const container = await createContainer(item, imageUrls, audio);
+  await waitForContainer(container.id, item.post_type === "reel");
+  const published = item.post_type === "reel"
+    ? await audioGraph(`${audioAccountId}/media_publish`, { creation_id: container.id }, "POST")
+    : await graph(`${accountId}/media_publish`, { creation_id: container.id }, "POST");
+  const media = item.post_type === "reel"
+    ? await audioGraph(`${published.id}?fields=id,permalink,timestamp`)
+    : await graph(`${published.id}?fields=id,permalink,timestamp`);
+  await updatePlan(plan, item, media, "github_actions_graph_api", audio);
   await setOutput({
     result: "published",
     post_id: item.id,
@@ -397,6 +507,8 @@ async function main() {
     asset_count: imageUrls.length,
     instagram_media_id: media.id,
     instagram_url: media.permalink || "",
+    audio_title: audio?.title || "",
+    audio_artist: audio?.display_artist || "",
   });
 }
 
@@ -405,4 +517,3 @@ main().catch(async (error) => {
   await setOutput({ result: "failed", error: error.message });
   process.exitCode = 1;
 });
-

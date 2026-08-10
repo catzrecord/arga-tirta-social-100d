@@ -109,7 +109,7 @@
     "title": "Sebelum air mengalir, sistemnya perlu dipikirkan.",
     "content_theme": "layanan",
     "weekly_theme": "Perkenalan yang tenang",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-004/slide-01.jpg",
     "assets": [
@@ -137,7 +137,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-004/slide-01.jpg",
+      "posts/arga-tirta-100d/day-004/slide-02.jpg",
+      "posts/arga-tirta-100d/day-004/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-004/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 5,
@@ -200,7 +239,7 @@
     "title": "AIR YANG BAIK / PUNYA CERITA / DI BALIKNYA.",
     "content_theme": "text_only",
     "weekly_theme": "Perkenalan yang tenang",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-007/slide-01.jpg",
     "assets": [
@@ -233,7 +272,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-007/slide-01.jpg",
+      "posts/arga-tirta-100d/day-007/slide-02.jpg",
+      "posts/arga-tirta-100d/day-007/slide-03.jpg",
+      "posts/arga-tirta-100d/day-007/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-007/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 8,
@@ -269,7 +348,7 @@
     "title": "Tiga hal yang layak diperhatikan selain tampilan air.",
     "content_theme": "edukasi",
     "weekly_theme": "Bening belum tentu selesai",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-009/slide-01.jpg",
     "assets": [
@@ -297,7 +376,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-009/slide-01.jpg",
+      "posts/arga-tirta-100d/day-009/slide-02.jpg",
+      "posts/arga-tirta-100d/day-009/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-009/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 10,
@@ -333,7 +451,7 @@
     "title": "Kenapa aliran dan tekanan perlu diperhatikan bersama.",
     "content_theme": "edukasi",
     "weekly_theme": "Bening belum tentu selesai",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-011/slide-01.jpg",
     "assets": [
@@ -361,7 +479,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-011/slide-01.jpg",
+      "posts/arga-tirta-100d/day-011/slide-02.jpg",
+      "posts/arga-tirta-100d/day-011/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-011/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sometimes",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 12,
@@ -424,7 +581,7 @@
     "title": "BENING ITU TERLIHAT. / PROSES TIDAK. / KEDUANYA",
     "content_theme": "text_only",
     "weekly_theme": "Bening belum tentu selesai",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-014/slide-01.jpg",
     "assets": [
@@ -457,7 +614,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-014/slide-01.jpg",
+      "posts/arga-tirta-100d/day-014/slide-02.jpg",
+      "posts/arga-tirta-100d/day-014/slide-03.jpg",
+      "posts/arga-tirta-100d/day-014/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-014/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "summer-inside",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 15,
@@ -493,7 +690,7 @@
     "title": "Satu sistem, beberapa tahap, satu tujuan.",
     "content_theme": "edukasi",
     "weekly_theme": "Mengenal filtrasi",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-016/slide-01.jpg",
     "assets": [
@@ -521,7 +718,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-016/slide-01.jpg",
+      "posts/arga-tirta-100d/day-016/slide-02.jpg",
+      "posts/arga-tirta-100d/day-016/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-016/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "love-story",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 17,
@@ -557,7 +793,7 @@
     "title": "Kapan filter perlu diperiksa, bukan sekadar diganti.",
     "content_theme": "edukasi",
     "weekly_theme": "Mengenal filtrasi",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-018/slide-01.jpg",
     "assets": [
@@ -585,7 +821,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-018/slide-01.jpg",
+      "posts/arga-tirta-100d/day-018/slide-02.jpg",
+      "posts/arga-tirta-100d/day-018/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-018/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "end-of-august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 19,
@@ -648,7 +923,7 @@
     "title": "FILTRASI BUKAN / SATU BENDA. / IA ADALAH",
     "content_theme": "text_only",
     "weekly_theme": "Mengenal filtrasi",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-021/slide-01.jpg",
     "assets": [
@@ -681,7 +956,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-021/slide-01.jpg",
+      "posts/arga-tirta-100d/day-021/slide-02.jpg",
+      "posts/arga-tirta-100d/day-021/slide-03.jpg",
+      "posts/arga-tirta-100d/day-021/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-021/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "young-beautiful",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 22,
@@ -717,7 +1032,7 @@
     "title": "Tanda kecil yang sebaiknya tidak diabaikan.",
     "content_theme": "edukasi",
     "weekly_theme": "Perawatan berkala",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-023/slide-01.jpg",
     "assets": [
@@ -745,7 +1060,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-023/slide-01.jpg",
+      "posts/arga-tirta-100d/day-023/slide-02.jpg",
+      "posts/arga-tirta-100d/day-023/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-023/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 24,
@@ -781,7 +1135,7 @@
     "title": "Gambaran singkat kunjungan perawatan.",
     "content_theme": "layanan",
     "weekly_theme": "Perawatan berkala",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-025/slide-01.jpg",
     "assets": [
@@ -809,7 +1163,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-025/slide-01.jpg",
+      "posts/arga-tirta-100d/day-025/slide-02.jpg",
+      "posts/arga-tirta-100d/day-025/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-025/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 26,
@@ -872,7 +1265,7 @@
     "title": "JANGAN TUNGGU / SAMPAI BERHENTI. / RAWAT SAAT",
     "content_theme": "text_only",
     "weekly_theme": "Perawatan berkala",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-028/slide-01.jpg",
     "assets": [
@@ -905,7 +1298,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-028/slide-01.jpg",
+      "posts/arga-tirta-100d/day-028/slide-02.jpg",
+      "posts/arga-tirta-100d/day-028/slide-03.jpg",
+      "posts/arga-tirta-100d/day-028/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-028/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 29,
@@ -941,7 +1374,7 @@
     "title": "Dari ruang kosong menuju alur kerja yang jelas.",
     "content_theme": "layanan",
     "weekly_theme": "Merancang depot",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-030/slide-01.jpg",
     "assets": [
@@ -969,7 +1402,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-030/slide-01.jpg",
+      "posts/arga-tirta-100d/day-030/slide-02.jpg",
+      "posts/arga-tirta-100d/day-030/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-030/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "summer-inside",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 31,
@@ -1005,7 +1477,7 @@
     "title": "Tiga pertanyaan sebelum menentukan instalasi.",
     "content_theme": "edukasi",
     "weekly_theme": "Merancang depot",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-032/slide-01.jpg",
     "assets": [
@@ -1033,7 +1505,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-032/slide-01.jpg",
+      "posts/arga-tirta-100d/day-032/slide-02.jpg",
+      "posts/arga-tirta-100d/day-032/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-032/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "love-story",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 33,
@@ -1096,7 +1607,7 @@
     "title": "RUANG BOLEH KECIL. / ALURNYA / TETAP HARUS",
     "content_theme": "text_only",
     "weekly_theme": "Merancang depot",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-035/slide-01.jpg",
     "assets": [
@@ -1129,7 +1640,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-035/slide-01.jpg",
+      "posts/arga-tirta-100d/day-035/slide-02.jpg",
+      "posts/arga-tirta-100d/day-035/slide-03.jpg",
+      "posts/arga-tirta-100d/day-035/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-035/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sometimes",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 36,
@@ -1165,7 +1716,7 @@
     "title": "Melihat tutup galon lebih dekat.",
     "content_theme": "produk",
     "weekly_theme": "Tutup galon dan detail produk",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-037/slide-01.jpg",
     "assets": [
@@ -1193,7 +1744,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-037/slide-01.jpg",
+      "posts/arga-tirta-100d/day-037/slide-02.jpg",
+      "posts/arga-tirta-100d/day-037/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-037/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "young-beautiful",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 38,
@@ -1229,7 +1819,7 @@
     "title": "Detail yang perlu diperhatikan saat memilih tutup galon.",
     "content_theme": "edukasi",
     "weekly_theme": "Tutup galon dan detail produk",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-039/slide-01.jpg",
     "assets": [
@@ -1257,7 +1847,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-039/slide-01.jpg",
+      "posts/arga-tirta-100d/day-039/slide-02.jpg",
+      "posts/arga-tirta-100d/day-039/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-039/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 40,
@@ -1320,7 +1949,7 @@
     "title": "SERING DIANGGAP / SEPELE. / PADAHAL DETAIL",
     "content_theme": "text_only",
     "weekly_theme": "Tutup galon dan detail produk",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-042/slide-01.jpg",
     "assets": [
@@ -1353,7 +1982,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-042/slide-01.jpg",
+      "posts/arga-tirta-100d/day-042/slide-02.jpg",
+      "posts/arga-tirta-100d/day-042/slide-03.jpg",
+      "posts/arga-tirta-100d/day-042/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-042/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "end-of-august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 43,
@@ -1389,7 +2058,7 @@
     "title": "Rutinitas kecil sebelum mulai bekerja.",
     "content_theme": "edukasi",
     "weekly_theme": "Kebersihan sebagai kebiasaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-044/slide-01.jpg",
     "assets": [
@@ -1417,7 +2086,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-044/slide-01.jpg",
+      "posts/arga-tirta-100d/day-044/slide-02.jpg",
+      "posts/arga-tirta-100d/day-044/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-044/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 45,
@@ -1453,7 +2161,7 @@
     "title": "Empat titik yang sering terlupa saat merapikan depot.",
     "content_theme": "edukasi",
     "weekly_theme": "Kebersihan sebagai kebiasaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-046/slide-01.jpg",
     "assets": [
@@ -1481,7 +2189,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-046/slide-01.jpg",
+      "posts/arga-tirta-100d/day-046/slide-02.jpg",
+      "posts/arga-tirta-100d/day-046/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-046/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "summer-inside",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 47,
@@ -1544,7 +2291,7 @@
     "title": "BERSIH BUKAN / SEKADAR KELIHATAN. / BERSIH ADALAH",
     "content_theme": "text_only",
     "weekly_theme": "Kebersihan sebagai kebiasaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-049/slide-01.jpg",
     "assets": [
@@ -1577,7 +2324,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-049/slide-01.jpg",
+      "posts/arga-tirta-100d/day-049/slide-02.jpg",
+      "posts/arga-tirta-100d/day-049/slide-03.jpg",
+      "posts/arga-tirta-100d/day-049/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-049/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 50,
@@ -1613,7 +2400,7 @@
     "title": "Satu hari pemasangan dalam empat momen.",
     "content_theme": "layanan",
     "weekly_theme": "Hari pemasangan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-051/slide-01.jpg",
     "assets": [
@@ -1641,7 +2428,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-051/slide-01.jpg",
+      "posts/arga-tirta-100d/day-051/slide-02.jpg",
+      "posts/arga-tirta-100d/day-051/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-051/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sometimes",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 52,
@@ -1677,7 +2503,7 @@
     "title": "Apa yang diperiksa sebelum sistem dinyalakan.",
     "content_theme": "edukasi",
     "weekly_theme": "Hari pemasangan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-053/slide-01.jpg",
     "assets": [
@@ -1705,7 +2531,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-053/slide-01.jpg",
+      "posts/arga-tirta-100d/day-053/slide-02.jpg",
+      "posts/arga-tirta-100d/day-053/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-053/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "young-beautiful",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 54,
@@ -1768,7 +2633,7 @@
     "title": "PASANG. / UJI. / PERIKSA LAGI.",
     "content_theme": "text_only",
     "weekly_theme": "Hari pemasangan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-056/slide-01.jpg",
     "assets": [
@@ -1801,7 +2666,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-056/slide-01.jpg",
+      "posts/arga-tirta-100d/day-056/slide-02.jpg",
+      "posts/arga-tirta-100d/day-056/slide-03.jpg",
+      "posts/arga-tirta-100d/day-056/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-056/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "love-story",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 57,
@@ -1837,7 +2742,7 @@
     "title": "Tiga cara membuat area kerja lebih mengalir.",
     "content_theme": "edukasi",
     "weekly_theme": "Efisiensi usaha",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-058/slide-01.jpg",
     "assets": [
@@ -1865,7 +2770,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-058/slide-01.jpg",
+      "posts/arga-tirta-100d/day-058/slide-02.jpg",
+      "posts/arga-tirta-100d/day-058/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-058/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "end-of-august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 59,
@@ -1901,7 +2845,7 @@
     "title": "Sebelum menambah alat, lihat dulu alurnya.",
     "content_theme": "layanan",
     "weekly_theme": "Efisiensi usaha",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-060/slide-01.jpg",
     "assets": [
@@ -1929,7 +2873,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-060/slide-01.jpg",
+      "posts/arga-tirta-100d/day-060/slide-02.jpg",
+      "posts/arga-tirta-100d/day-060/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-060/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 61,
@@ -1992,7 +2975,7 @@
     "title": "BEKERJA LEBIH CEPAT / BUKAN BERARTI / TERGESA-GESA.",
     "content_theme": "text_only",
     "weekly_theme": "Efisiensi usaha",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-063/slide-01.jpg",
     "assets": [
@@ -2025,7 +3008,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-063/slide-01.jpg",
+      "posts/arga-tirta-100d/day-063/slide-02.jpg",
+      "posts/arga-tirta-100d/day-063/slide-03.jpg",
+      "posts/arga-tirta-100d/day-063/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-063/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 64,
@@ -2061,7 +3084,7 @@
     "title": "Yang membuat pelanggan kembali sering kali sederhana.",
     "content_theme": "brand",
     "weekly_theme": "Menjaga kepercayaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-065/slide-01.jpg",
     "assets": [
@@ -2089,7 +3112,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-065/slide-01.jpg",
+      "posts/arga-tirta-100d/day-065/slide-02.jpg",
+      "posts/arga-tirta-100d/day-065/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-065/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 66,
@@ -2125,7 +3187,7 @@
     "title": "Tunjukkan proses tanpa harus bicara terlalu keras.",
     "content_theme": "edukasi",
     "weekly_theme": "Menjaga kepercayaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-067/slide-01.jpg",
     "assets": [
@@ -2153,7 +3215,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-067/slide-01.jpg",
+      "posts/arga-tirta-100d/day-067/slide-02.jpg",
+      "posts/arga-tirta-100d/day-067/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-067/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sometimes",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 68,
@@ -2216,7 +3317,7 @@
     "title": "KEPERCAYAAN / TIDAK DATANG / DALAM SEHARI.",
     "content_theme": "text_only",
     "weekly_theme": "Menjaga kepercayaan",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-070/slide-01.jpg",
     "assets": [
@@ -2249,7 +3350,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-070/slide-01.jpg",
+      "posts/arga-tirta-100d/day-070/slide-02.jpg",
+      "posts/arga-tirta-100d/day-070/slide-03.jpg",
+      "posts/arga-tirta-100d/day-070/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-070/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "summer-inside",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 71,
@@ -2285,7 +3426,7 @@
     "title": "Empat sinyal sistem perlu diperiksa.",
     "content_theme": "edukasi",
     "weekly_theme": "Membaca tanda kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-072/slide-01.jpg",
     "assets": [
@@ -2313,7 +3454,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-072/slide-01.jpg",
+      "posts/arga-tirta-100d/day-072/slide-02.jpg",
+      "posts/arga-tirta-100d/day-072/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-072/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "love-story",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 73,
@@ -2349,7 +3529,7 @@
     "title": "Catat perubahan kecil sebelum menjadi pola.",
     "content_theme": "edukasi",
     "weekly_theme": "Membaca tanda kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-074/slide-01.jpg",
     "assets": [
@@ -2377,7 +3557,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-074/slide-01.jpg",
+      "posts/arga-tirta-100d/day-074/slide-02.jpg",
+      "posts/arga-tirta-100d/day-074/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-074/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "end-of-august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 75,
@@ -2440,7 +3659,7 @@
     "title": "MESIN SELALU / MEMBERI TANDA. / PERTANYAANNYA:",
     "content_theme": "text_only",
     "weekly_theme": "Membaca tanda kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-077/slide-01.jpg",
     "assets": [
@@ -2473,7 +3692,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-077/slide-01.jpg",
+      "posts/arga-tirta-100d/day-077/slide-02.jpg",
+      "posts/arga-tirta-100d/day-077/slide-03.jpg",
+      "posts/arga-tirta-100d/day-077/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-077/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "young-beautiful",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 78,
@@ -2509,7 +3768,7 @@
     "title": "Tiga peningkatan kecil untuk alur yang lebih nyaman.",
     "content_theme": "edukasi",
     "weekly_theme": "Peningkatan kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-079/slide-01.jpg",
     "assets": [
@@ -2537,7 +3796,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-079/slide-01.jpg",
+      "posts/arga-tirta-100d/day-079/slide-02.jpg",
+      "posts/arga-tirta-100d/day-079/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-079/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 80,
@@ -2573,7 +3871,7 @@
     "title": "Evaluasi singkat sebelum memutuskan upgrade.",
     "content_theme": "layanan",
     "weekly_theme": "Peningkatan kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-081/slide-01.jpg",
     "assets": [
@@ -2601,7 +3899,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-081/slide-01.jpg",
+      "posts/arga-tirta-100d/day-081/slide-02.jpg",
+      "posts/arga-tirta-100d/day-081/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-081/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 82,
@@ -2664,7 +4001,7 @@
     "title": "TIDAK HARUS / BERUBAH BESAR. / CUKUP MULAI",
     "content_theme": "text_only",
     "weekly_theme": "Peningkatan kecil",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-084/slide-01.jpg",
     "assets": [
@@ -2697,7 +4034,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-084/slide-01.jpg",
+      "posts/arga-tirta-100d/day-084/slide-02.jpg",
+      "posts/arga-tirta-100d/day-084/slide-03.jpg",
+      "posts/arga-tirta-100d/day-084/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-084/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 85,
@@ -2733,7 +4110,7 @@
     "title": "Dari rencana kecil menuju sistem yang berjalan.",
     "content_theme": "brand",
     "weekly_theme": "Bertumbuh bersama",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-086/slide-01.jpg",
     "assets": [
@@ -2761,7 +4138,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-086/slide-01.jpg",
+      "posts/arga-tirta-100d/day-086/slide-02.jpg",
+      "posts/arga-tirta-100d/day-086/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-086/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "summer-inside",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 87,
@@ -2797,7 +4213,7 @@
     "title": "Pertanyaan yang membantu sebelum membuka depot.",
     "content_theme": "edukasi",
     "weekly_theme": "Bertumbuh bersama",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-088/slide-01.jpg",
     "assets": [
@@ -2825,7 +4241,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-088/slide-01.jpg",
+      "posts/arga-tirta-100d/day-088/slide-02.jpg",
+      "posts/arga-tirta-100d/day-088/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-088/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "love-story",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 89,
@@ -2888,7 +4343,7 @@
     "title": "USAHA BERTUMBUH / DENGAN CARANYA. / SISTEM YANG BAIK",
     "content_theme": "text_only",
     "weekly_theme": "Bertumbuh bersama",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-091/slide-01.jpg",
     "assets": [
@@ -2921,7 +4376,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-091/slide-01.jpg",
+      "posts/arga-tirta-100d/day-091/slide-02.jpg",
+      "posts/arga-tirta-100d/day-091/slide-03.jpg",
+      "posts/arga-tirta-100d/day-091/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-091/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sometimes",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 92,
@@ -2957,7 +4452,7 @@
     "title": "Empat kata yang menjaga cara kami bekerja.",
     "content_theme": "brand",
     "weekly_theme": "Filosofi kerja Arga Tirta",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-093/slide-01.jpg",
     "assets": [
@@ -2985,7 +4480,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-093/slide-01.jpg",
+      "posts/arga-tirta-100d/day-093/slide-02.jpg",
+      "posts/arga-tirta-100d/day-093/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-093/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "young-beautiful",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 94,
@@ -3021,7 +4555,7 @@
     "title": "Seratus hari membicarakan detail yang sering luput.",
     "content_theme": "brand",
     "weekly_theme": "Filosofi kerja Arga Tirta",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-095/slide-01.jpg",
     "assets": [
@@ -3049,7 +4583,46 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-095/slide-01.jpg",
+      "posts/arga-tirta-100d/day-095/slide-02.jpg",
+      "posts/arga-tirta-100d/day-095/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-095/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "respect",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 96,
@@ -3112,7 +4685,7 @@
     "title": "KERJA YANG BAIK / TIDAK HARUS / TERLIHAT RAMAI.",
     "content_theme": "text_only",
     "weekly_theme": "Filosofi kerja Arga Tirta",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 4,
     "asset": "posts/arga-tirta-100d/day-098/slide-01.jpg",
     "assets": [
@@ -3145,7 +4718,47 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-098/slide-01.jpg",
+      "posts/arga-tirta-100d/day-098/slide-02.jpg",
+      "posts/arga-tirta-100d/day-098/slide-03.jpg",
+      "posts/arga-tirta-100d/day-098/slide-04.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-098/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 4,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "end-of-august",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   },
   {
     "id": 99,
@@ -3181,7 +4794,7 @@
     "title": "Kalau ada satu bagian yang ingin dirapikan, mulai dari sana.",
     "content_theme": "soft_sell",
     "weekly_theme": "Penutup 100 hari",
-    "post_type": "carousel",
+    "post_type": "reel",
     "slide_count": 3,
     "asset": "posts/arga-tirta-100d/day-100/slide-01.jpg",
     "assets": [
@@ -3209,6 +4822,45 @@
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "source_post_type": "carousel",
+    "source_assets": [
+      "posts/arga-tirta-100d/day-100/slide-01.jpg",
+      "posts/arga-tirta-100d/day-100/slide-02.jpg",
+      "posts/arga-tirta-100d/day-100/slide-03.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-100d/day-100/reel.mp4",
+    "reel_spec": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "source": "existing carousel artwork",
+      "slides": 3,
+      "transition": "beat-paced hard cuts"
+    },
+    "audio": {
+      "requested": true,
+      "selection": "trending_western",
+      "graph_api_attachment": true,
+      "audio_type": "music",
+      "catalog_verified_at": "2026-08-10",
+      "western_audio_key": "sweetly",
+      "western_candidates": [
+        "august",
+        "end-of-august",
+        "sometimes",
+        "sweetly",
+        "young-beautiful",
+        "summer-inside",
+        "respect",
+        "love-story"
+      ],
+      "language_exclusions": [
+        "Indonesian"
+      ],
+      "audio_volume": 100,
+      "video_volume": 0,
+      "selection_timing": "publish_time"
+    }
   }
 ]
