@@ -163,12 +163,16 @@
       }
     ],
     "final_caption": "Hari kerja dimulai dari memeriksa hal-hal kecil.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18119374855896971",
+    "instagram_url": "https://www.instagram.com/p/Db5uIZbG6io/",
+    "published_at": "2026-08-11T13:42:14+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 6,
