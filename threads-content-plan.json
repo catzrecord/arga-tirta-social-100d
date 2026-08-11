@@ -78,8 +78,13 @@
       "text": "Ada yang sedang menyiapkan bisnis isi ulang? Satu hal ini sering baru dipikirkan setelah uang keluar: uji laboratorium.\n\nMengandalkan rasa dan kejernihan saja membuat keputusan filter menjadi tebakan.\n\nKapan terakhir sumber air Anda diuji?\n\nTiga hal yang perlu dicek: 1) parameter yang diuji, 2) waktu pengambilan sampel, 3) catatan perubahan hasil. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan setelah tindakan.",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "17982655665061244",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/Db4Z4-yFmIz",
+      "published_at": "2026-08-11T01:26:04+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D002-PM",
