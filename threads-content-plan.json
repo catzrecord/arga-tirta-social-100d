@@ -120,8 +120,13 @@
       "text": "Kesalahan mahal di depot sering bukan mesin rusak. Masalahnya: angka tds sering dianggap sebagai vonis mutu padahal hanya satu petunjuk.\n\nAngka TDS sering dianggap sebagai vonis mutu padahal hanya satu petunjuk.\n\nSelama ini Anda memakai TDS untuk keputusan apa?\n\nTiga hal yang perlu dicek: 1) ukur dengan alat terkalibrasi, 2) bandingkan sebelum dan sesudah proses, 3) baca bersama hasil uji lain. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan…",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18401317792090684",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/Db69uEiCT4g",
+      "published_at": "2026-08-12T01:17:38+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D003-PM",
