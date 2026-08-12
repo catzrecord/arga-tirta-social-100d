@@ -194,12 +194,16 @@
       }
     ],
     "final_caption": "Kalau sistemnya rapi, pekerjaan terasa lebih ringan.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18002415275967121",
+    "instagram_url": "https://www.instagram.com/p/Db8TZ7CoOSF/",
+    "published_at": "2026-08-12T13:46:25+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 7,
