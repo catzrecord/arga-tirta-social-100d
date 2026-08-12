@@ -141,13 +141,18 @@
       "text": "Foto ini menunjukkan unit depot Arga Tirta yang sudah selesai dirakit dan siap dikirim ke lokasi pelanggan.\n\nSebelum unit berangkat, lokasi pelanggan juga harus benar-benar siap. Instalasi yang rapi dimulai dari ukuran ruang dan jalur masuk yang jelas, bukan dari perkiraan saat unit sudah tiba.\n\nChecklist: 1) akses unit menuju lokasi; 2) ukuran ruang dan jarak servis; 3) kesiapan listrik, tandon, dan pipa.\n\nLokasi depot Anda sudah diukur sampai jalur masuk unitnya?",
       "replies": [],
       "cta_type": "website",
-      "status": "queued_auto",
+      "status": "published",
       "approval_status": "approved",
       "asset": "threads-assets/gallery-real-banner.jpg",
       "alt_text": "Unit depot air minum Arga Tirta selesai dirakit dan siap dikirim serta dipasang.",
       "source_asset": "real-banner.jpg",
       "asset_original": true,
-      "gallery_reference": "https://argatirta.web.id/#galeri"
+      "gallery_reference": "https://argatirta.web.id/#galeri",
+      "threads_media_id": "18147981625523479",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/Db8JOW-CHcM",
+      "published_at": "2026-08-12T12:17:30+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D004-AM",
