@@ -213,8 +213,22 @@
         "3/3 Terakhir, pastikan cek tekanan antar tahap. Dari tiga catatan itu keputusan belanja, servis, atau perubahan SOP jadi lebih masuk akal. Apakah Anda punya catatan perubahan kekeruhan?"
       ],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "17889884196670855",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcAHSdbFDLo",
+      "published_at": "2026-08-14T01:17:26+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": [
+        "18111820511070181",
+        "18138648175578791",
+        "18115707820922466"
+      ],
+      "published_reply_urls": [
+        "https://www.threads.com/@cv.argatirta/post/DcAHS-oFBBD",
+        "https://www.threads.com/@cv.argatirta/post/DcAHT1AFHPI",
+        "https://www.threads.com/@cv.argatirta/post/DcAHUd4FFLH"
+      ]
     },
     {
       "id": "AT-THR-D005-PM",
