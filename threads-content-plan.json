@@ -243,8 +243,13 @@
       "text": "Catatan admin malam ini: Air tampak jernih belum tentu proses penyaringannya konsisten.\n\nSebelum mengambil keputusan, cek: 1) lihat tren bukan satu angka; 2) cek endapan tandon; 3) cek tekanan antar tahap. Satu data kecil yang dicatat rutin lebih berguna daripada tebakan panjang saat masalah sudah terjadi.\n\nApakah Anda punya catatan perubahan kekeruhan?",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18131342338632806",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcBS0tJmzNm",
+      "published_at": "2026-08-14T12:17:29+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D006-AM",
