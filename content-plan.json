@@ -312,12 +312,16 @@
       }
     ],
     "final_caption": "Tiga hal yang layak diperhatikan selain tampilan air.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18104171450520494",
+    "instagram_url": "https://www.instagram.com/p/DcD8XZBG_81/",
+    "published_at": "2026-08-15T12:59:01+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 10,
