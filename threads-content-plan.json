@@ -264,8 +264,13 @@
       "text": "Ada yang sedang menyiapkan bisnis isi ulang? Satu hal ini sering baru dipikirkan setelah uang keluar: ph.\n\nMemasang komponen tanpa memahami pH dapat memperpendek umur media.\n\nBerapa pH air baku terakhir yang Anda ukur?\n\nTiga hal yang perlu dicek: 1) ukur air baku dan produk, 2) cek alat ukur, 3) catat perubahan musiman. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan setelah tindakan.",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "17903536128538872",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcCsE8WDIyQ",
+      "published_at": "2026-08-15T01:17:23+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D006-PM",
