@@ -285,13 +285,18 @@
       "text": "Di foto ini pelanggan dan keluarganya berdiri di depan unit depot yang sudah terpasang dan menyala.\n\nMesin menyala adalah awal operasional, bukan akhir pekerjaan. Pemilik perlu memahami kebiasaan harian yang menjaga hasil tetap konsisten setelah tim instalasi pulang.\n\nChecklist: 1) SOP buka dan tutup; 2) jadwal sanitasi serta penggantian filter; 3) kontak dukungan saat muncul perubahan.\n\nSiapa yang akan memegang checklist harian di depot Anda?",
       "replies": [],
       "cta_type": "whatsapp",
-      "status": "queued_auto",
+      "status": "published",
       "approval_status": "approved",
       "asset": "threads-assets/gallery-real-01.jpg",
       "alt_text": "Pelanggan dan keluarganya bersama unit depot Arga Tirta yang sudah terpasang.",
       "source_asset": "real-01.jpg",
       "asset_original": true,
-      "gallery_reference": "https://argatirta.web.id/#galeri"
+      "gallery_reference": "https://argatirta.web.id/#galeri",
+      "threads_media_id": "18123860158694258",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcD3nrbnJGV",
+      "published_at": "2026-08-15T12:17:36+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D007-AM",
