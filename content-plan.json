@@ -343,12 +343,16 @@
       }
     ],
     "final_caption": "Pemeriksaan rutin terlihat sepele sampai suatu hari dilewatkan.\n\nDi lapangan, ketelitian tumbuh dari kebiasaan yang dilakukan tanpa banyak suara.\n\nBegini kurang lebih keseharian kami.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18234922165314740",
+    "instagram_url": "https://www.instagram.com/p/DcGhToBlGyq/",
+    "published_at": "2026-08-16T13:00:17+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 11,
