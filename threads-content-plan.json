@@ -332,8 +332,13 @@
       "text": "Catatan admin malam ini: Masalah higienitas sering datang dari titik kecil setelah proses utama.\n\nSebelum mengambil keputusan, cek: 1) jadwal sanitasi; 2) penutup tandon dan jalur pipa; 3) cara operator memegang tutup serta nozzle. Satu data kecil yang dicatat rutin lebih berguna daripada tebakan panjang saat masalah sudah terjadi.\n\nBagian mana yang paling sulit dijaga konsisten?\n\nReferensi layanan: https://argatirta.web.id. Konsultasi awal: https://wa.me/628128787299.",
       "replies": [],
       "cta_type": "mixed",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "17962835229173921",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcGhNQmjaFA",
+      "published_at": "2026-08-16T12:59:22+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D008-AM",
