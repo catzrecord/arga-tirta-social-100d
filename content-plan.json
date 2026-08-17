@@ -384,12 +384,16 @@
       }
     ],
     "final_caption": "Kenapa aliran dan tekanan perlu diperhatikan bersama.\n\nHal sederhana seperti ini membantu kualitas tetap lebih mudah dipantau dari hari ke hari.\n\nSimpan kalau suatu hari ingin mengeceknya lagi.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18112072270994288",
+    "instagram_url": "https://www.instagram.com/p/DcJGt7Pm9ey/",
+    "published_at": "2026-08-17T13:05:40+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 12,
