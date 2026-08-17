@@ -387,8 +387,13 @@
       "text": "Catatan admin malam ini: Tandon yang luput dibersihkan membuat beban filter terus naik.\n\nSebelum mengambil keputusan, cek: 1) kondisi tutup; 2) endapan dasar; 3) jadwal kuras dan dokumentasi. Satu data kecil yang dicatat rutin lebih berguna daripada tebakan panjang saat masalah sudah terjadi.\n\nKapan tandon terakhir dikuras?\n\nKalau mau melihat layanan dan contoh unit Arga Tirta, cek https://argatirta.web.id.",
       "replies": [],
       "cta_type": "website",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "17944086243273102",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcJBNEwFIL5",
+      "published_at": "2026-08-17T12:17:26+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D009-AM",
