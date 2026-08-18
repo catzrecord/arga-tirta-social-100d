@@ -408,8 +408,13 @@
       "text": "Kalau mau buka depot isi ulang, jangan mulai dari katalog mesin dulu. Mulai dari prefilter.\n\nPrefilter yang terlalu jarang diganti membebani tahap berikutnya.\n\nPatokan penggantian Anda waktu atau kondisi?\n\nTiga hal yang perlu dicek: 1) warna dan tekanan, 2) jam operasi, 3) stok pengganti. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan setelah tindakan.",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18114390458055365",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcKaeaqFrUo",
+      "published_at": "2026-08-18T01:17:31+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D009-PM",
