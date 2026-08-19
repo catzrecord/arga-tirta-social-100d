@@ -471,13 +471,18 @@
       "text": "Di foto ini saya sedang berjabat tangan dengan pelanggan saat serah terima unit Arga Tirta.\n\nJabat tangan bukan sekadar foto penutup. Pada tahap ini pelanggan harus menerima penjelasan unit, cara operasi, jadwal perawatan, serta jalur komunikasi setelah pemasangan.\n\nChecklist: 1) spesifikasi dan hasil pekerjaan; 2) pelatihan operator; 3) garansi serta kontak layanan.\n\nSaat serah terima, bagian apa yang paling ingin Anda pahami lebih dulu?",
       "replies": [],
       "cta_type": "website",
-      "status": "queued_auto",
+      "status": "published",
       "approval_status": "approved",
       "asset": "threads-assets/gallery-real-02.jpg",
       "alt_text": "Arga Tirta berjabat tangan dengan pelanggan saat serah terima unit depot.",
       "source_asset": "real-02.jpg",
       "asset_original": true,
-      "gallery_reference": "https://argatirta.web.id/#galeri"
+      "gallery_reference": "https://argatirta.web.id/#galeri",
+      "threads_media_id": "18007696967760856",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcOQi5Xm1hg",
+      "published_at": "2026-08-19T13:07:48+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D011-AM",
