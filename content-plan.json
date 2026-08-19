@@ -446,12 +446,16 @@
       }
     ],
     "final_caption": "Kualitas lebih mudah dijaga saat prosesnya terbaca.\n\nTidak perlu terburu-buru. Mulai saja dari bagian yang paling ingin dirapikan.\n\nKalau waktunya tepat, mari bicarakan kebutuhannya.\n\n#ArgaTirta #DepotAirMinum #IsiUlang #TutupGalon #UsahaAirMinum",
-    "status": "queued_auto",
+    "status": "published",
     "approval_required": true,
     "approval_status": "approved",
     "visual_revision": "cinematic-field-notes-v1",
     "asset_version": "arga-tirta-100d-v1",
-    "ai_generated": true
+    "ai_generated": true,
+    "instagram_media_id": "18166772668457540",
+    "instagram_url": "https://www.instagram.com/p/DcOQnn4IN-X/",
+    "published_at": "2026-08-19T13:08:26+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 14,
