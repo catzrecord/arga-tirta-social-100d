@@ -450,8 +450,13 @@
       "text": "Ada yang sedang menyiapkan bisnis isi ulang? Satu hal ini sering baru dipikirkan setelah uang keluar: filter sedimen.\n\nCartridge murah bisa menjadi mahal saat aliran turun di jam sibuk.\n\nBerapa lama cartridge bertahan di depot Anda?\n\nTiga hal yang perlu dicek: 1) mikron yang sesuai, 2) beda tekanan, 3) riwayat penggantian. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan setelah tindakan.",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18097236836035221",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcNHwN6G4OV",
+      "published_at": "2026-08-19T02:31:39+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D010-PM",
