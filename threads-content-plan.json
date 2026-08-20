@@ -497,8 +497,13 @@
       "text": "Kesalahan mahal di depot sering bukan mesin rusak. Masalahnya: karbon aktif tidak bekerja optimal selamanya hanya karena air masih terlihat jernih.\n\nKarbon aktif tidak bekerja optimal selamanya hanya karena air masih terlihat jernih.\n\nApa tanda yang Anda pakai untuk mengganti karbon?\n\nTiga hal yang perlu dicek: 1) bau dan rasa, 2) kapasitas media, 3) prosedur bilas setelah penggantian. Kalau angkanya belum ada, jangan buru-buru menyimpulkan. Catat kondisi hari ini lalu bandingkan setelah…",
       "replies": [],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18112864552786828",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcPsZtpnCyX",
+      "published_at": "2026-08-20T02:30:22+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D011-PM",
