@@ -543,8 +543,22 @@
         "3/3 Terakhir, pastikan hasil sebelum dan sesudah. Dari tiga catatan itu keputusan belanja, servis, atau perubahan SOP jadi lebih masuk akal. Apakah regenerasi sudah dicatat setiap kali dilakukan?"
       ],
       "cta_type": "conversation",
-      "status": "queued_auto",
-      "approval_status": "approved"
+      "status": "published",
+      "approval_status": "approved",
+      "threads_media_id": "18084130574678339",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcSR5exjmf_",
+      "published_at": "2026-08-21T02:36:30+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": [
+        "18004824932977204",
+        "18174791077435061",
+        "18022280624911438"
+      ],
+      "published_reply_urls": [
+        "https://www.threads.com/@cv.argatirta/post/DcSR6d5Dj4G",
+        "https://www.threads.com/@cv.argatirta/post/DcSR72-DntK",
+        "https://www.threads.com/@cv.argatirta/post/DcSR9NDDm6s"
+      ]
     },
     {
       "id": "AT-THR-D012-PM",
