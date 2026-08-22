@@ -615,13 +615,18 @@
       "text": "Foto lokal ini memperlihatkan muatan bal tutup galon Arga Tirta yang sedang disiapkan untuk pengiriman.\n\nStok kecil seperti tutup galon sering baru terasa penting ketika habis pada jam ramai. Pemilik depot perlu menghitung pemakaian harian dan waktu kirim, bukan menunggu rak benar-benar kosong.\n\nChecklist: 1) jumlah per bal dan spesifikasi tutup; 2) kemasan tetap kering serta tertutup; 3) stok aman sesuai waktu pengiriman.\n\nStok tutup galon di tempat Anda cukup untuk berapa hari?",
       "replies": [],
       "cta_type": "whatsapp",
-      "status": "queued_auto",
+      "status": "published",
       "approval_status": "approved",
       "asset": "threads-assets/gallery-catalog-cap-delivery.jpg",
       "alt_text": "Muatan bal tutup galon Arga Tirta disiapkan untuk pengiriman ke pelanggan.",
       "source_asset": "catalog-cap-delivery.jpg",
       "asset_original": true,
-      "gallery_reference": "local:katalog-arga-tirta.pdf"
+      "gallery_reference": "local:katalog-arga-tirta.pdf",
+      "threads_media_id": "18114433450984977",
+      "threads_url": "https://www.threads.com/@cv.argatirta/post/DcV-AQvIGsD",
+      "published_at": "2026-08-22T12:59:43+0000",
+      "published_via": "github_actions_threads_api",
+      "published_reply_ids": []
     },
     {
       "id": "AT-THR-D014-AM",
