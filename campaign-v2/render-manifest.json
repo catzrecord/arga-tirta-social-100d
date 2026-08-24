@@ -1,0 +1,2263 @@
+[
+  {
+    "campaign_day": 1,
+    "date": "2026-08-24",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-001/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-001/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-001/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-001/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 2,
+    "date": "2026-08-25",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-002/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 3,
+    "date": "2026-08-26",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-003/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-003/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-003/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-003/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 4,
+    "date": "2026-08-27",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-004/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 5,
+    "date": "2026-08-28",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-005/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-005/reel.mp4",
+    "master": 5,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 6,
+    "date": "2026-08-29",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-006/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-006/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-006/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-006/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 7,
+    "date": "2026-08-30",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-007/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-007/reel.mp4",
+    "master": 7,
+    "layout": "week1-approved"
+  },
+  {
+    "campaign_day": 8,
+    "date": "2026-08-31",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-008/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-008/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-008/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-008/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 9,
+    "date": "2026-09-01",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-009/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 10,
+    "date": "2026-09-02",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-010/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-010/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-010/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-010/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 11,
+    "date": "2026-09-03",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-011/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 12,
+    "date": "2026-09-04",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-012/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-012/reel.mp4",
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 13,
+    "date": "2026-09-05",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-013/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-013/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-013/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-013/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 3
+  },
+  {
+    "campaign_day": 14,
+    "date": "2026-09-06",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-014/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-014/reel.mp4",
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 15,
+    "date": "2026-09-07",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-015/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-015/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-015/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-015/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 16,
+    "date": "2026-09-08",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-016/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 17,
+    "date": "2026-09-09",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-017/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-017/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-017/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-017/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 18,
+    "date": "2026-09-10",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-018/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 19,
+    "date": "2026-09-11",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-019/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-019/reel.mp4",
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 20,
+    "date": "2026-09-12",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-020/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-020/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-020/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-020/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 21,
+    "date": "2026-09-13",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-021/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-021/reel.mp4",
+    "master": 4,
+    "layout": 4
+  },
+  {
+    "campaign_day": 22,
+    "date": "2026-09-14",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-022/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-022/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-022/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-022/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 23,
+    "date": "2026-09-15",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-023/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 24,
+    "date": "2026-09-16",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-024/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-024/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-024/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-024/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 25,
+    "date": "2026-09-17",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-025/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 26,
+    "date": "2026-09-18",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-026/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-026/reel.mp4",
+    "master": 3,
+    "layout": 3
+  },
+  {
+    "campaign_day": 27,
+    "date": "2026-09-19",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-027/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-027/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-027/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-027/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 2
+  },
+  {
+    "campaign_day": 28,
+    "date": "2026-09-20",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-028/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-028/reel.mp4",
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 29,
+    "date": "2026-09-21",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-029/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-029/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-029/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-029/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 4
+  },
+  {
+    "campaign_day": 30,
+    "date": "2026-09-22",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-030/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 0
+  },
+  {
+    "campaign_day": 31,
+    "date": "2026-09-23",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-031/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-031/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-031/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-031/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 3
+  },
+  {
+    "campaign_day": 32,
+    "date": "2026-09-24",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-032/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 33,
+    "date": "2026-09-25",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-033/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-033/reel.mp4",
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 34,
+    "date": "2026-09-26",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-034/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-034/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-034/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-034/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 35,
+    "date": "2026-09-27",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-035/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-035/reel.mp4",
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 36,
+    "date": "2026-09-28",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-036/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-036/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-036/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-036/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 37,
+    "date": "2026-09-29",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-037/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 38,
+    "date": "2026-09-30",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-038/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-038/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-038/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-038/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 39,
+    "date": "2026-10-01",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-039/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 40,
+    "date": "2026-10-02",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-040/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-040/reel.mp4",
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 41,
+    "date": "2026-10-03",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-041/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-041/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-041/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-041/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 1
+  },
+  {
+    "campaign_day": 42,
+    "date": "2026-10-04",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-042/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-042/reel.mp4",
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 43,
+    "date": "2026-10-05",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-043/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-043/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-043/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-043/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 44,
+    "date": "2026-10-06",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-044/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 4
+  },
+  {
+    "campaign_day": 45,
+    "date": "2026-10-07",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-045/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-045/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-045/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-045/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 2
+  },
+  {
+    "campaign_day": 46,
+    "date": "2026-10-08",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-046/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 4
+  },
+  {
+    "campaign_day": 47,
+    "date": "2026-10-09",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-047/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-047/reel.mp4",
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 48,
+    "date": "2026-10-10",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-048/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-048/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-048/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-048/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 49,
+    "date": "2026-10-11",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-049/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-049/reel.mp4",
+    "master": 4,
+    "layout": 2
+  },
+  {
+    "campaign_day": 50,
+    "date": "2026-10-12",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-050/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-050/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-050/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-050/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 1
+  },
+  {
+    "campaign_day": 51,
+    "date": "2026-10-13",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-051/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 52,
+    "date": "2026-10-14",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-052/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-052/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-052/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-052/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 53,
+    "date": "2026-10-15",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-053/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 54,
+    "date": "2026-10-16",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-054/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-054/reel.mp4",
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 55,
+    "date": "2026-10-17",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-055/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-055/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-055/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-055/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 0
+  },
+  {
+    "campaign_day": 56,
+    "date": "2026-10-18",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-056/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-056/reel.mp4",
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 57,
+    "date": "2026-10-19",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-057/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-057/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-057/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-057/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 58,
+    "date": "2026-10-20",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-058/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 59,
+    "date": "2026-10-21",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-059/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-059/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-059/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-059/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 1
+  },
+  {
+    "campaign_day": 60,
+    "date": "2026-10-22",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-060/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 61,
+    "date": "2026-10-23",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-061/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-061/reel.mp4",
+    "master": 7,
+    "layout": 2
+  },
+  {
+    "campaign_day": 62,
+    "date": "2026-10-24",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-062/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-062/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-062/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-062/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 63,
+    "date": "2026-10-25",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-063/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-063/reel.mp4",
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 64,
+    "date": "2026-10-26",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-064/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-064/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-064/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-064/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 0
+  },
+  {
+    "campaign_day": 65,
+    "date": "2026-10-27",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-065/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 66,
+    "date": "2026-10-28",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-066/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-066/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-066/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-066/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 67,
+    "date": "2026-10-29",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-067/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 3
+  },
+  {
+    "campaign_day": 68,
+    "date": "2026-10-30",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-068/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-068/reel.mp4",
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 69,
+    "date": "2026-10-31",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-069/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-069/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-069/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-069/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 4
+  },
+  {
+    "campaign_day": 70,
+    "date": "2026-11-01",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-070/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-070/reel.mp4",
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 71,
+    "date": "2026-11-02",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-071/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-071/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-071/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-071/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 72,
+    "date": "2026-11-03",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-072/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 73,
+    "date": "2026-11-04",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-073/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-073/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-073/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-073/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 0
+  },
+  {
+    "campaign_day": 74,
+    "date": "2026-11-05",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-074/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 75,
+    "date": "2026-11-06",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-075/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-075/reel.mp4",
+    "master": 4,
+    "layout": 3
+  },
+  {
+    "campaign_day": 76,
+    "date": "2026-11-07",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-076/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-076/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-076/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-076/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 77,
+    "date": "2026-11-08",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-077/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-077/reel.mp4",
+    "master": 4,
+    "layout": 0
+  },
+  {
+    "campaign_day": 78,
+    "date": "2026-11-09",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-078/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-078/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-078/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-078/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 79,
+    "date": "2026-11-10",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-079/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 80,
+    "date": "2026-11-11",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-080/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-080/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-080/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-080/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 81,
+    "date": "2026-11-12",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-081/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 82,
+    "date": "2026-11-13",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-082/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-082/reel.mp4",
+    "master": 7,
+    "layout": 3
+  },
+  {
+    "campaign_day": 83,
+    "date": "2026-11-14",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-083/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-083/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-083/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-083/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 84,
+    "date": "2026-11-15",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-084/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-084/reel.mp4",
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 85,
+    "date": "2026-11-16",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-085/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-085/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-085/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-085/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 0
+  },
+  {
+    "campaign_day": 86,
+    "date": "2026-11-17",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-086/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 1
+  },
+  {
+    "campaign_day": 87,
+    "date": "2026-11-18",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-087/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-087/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-087/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-087/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 4
+  },
+  {
+    "campaign_day": 88,
+    "date": "2026-11-19",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-088/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 89,
+    "date": "2026-11-20",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-089/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-089/reel.mp4",
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 90,
+    "date": "2026-11-21",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-090/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-090/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-090/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-090/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 91,
+    "date": "2026-11-22",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-091/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-091/reel.mp4",
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 92,
+    "date": "2026-11-23",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-092/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-092/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-092/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-092/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 3
+  },
+  {
+    "campaign_day": 93,
+    "date": "2026-11-24",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-093/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 94,
+    "date": "2026-11-25",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-094/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-094/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-094/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-094/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 95,
+    "date": "2026-11-26",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-095/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 1
+  },
+  {
+    "campaign_day": 96,
+    "date": "2026-11-27",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-096/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-096/reel.mp4",
+    "master": 4,
+    "layout": 4
+  },
+  {
+    "campaign_day": 97,
+    "date": "2026-11-28",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-097/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-097/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-097/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-097/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 98,
+    "date": "2026-11-29",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-098/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-098/reel.mp4",
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 99,
+    "date": "2026-11-30",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-099/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-099/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-099/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-099/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 4
+  },
+  {
+    "campaign_day": 100,
+    "date": "2026-12-01",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-100/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 101,
+    "date": "2026-12-02",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-101/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-101/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-101/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-101/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 3
+  },
+  {
+    "campaign_day": 102,
+    "date": "2026-12-03",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-102/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 0
+  },
+  {
+    "campaign_day": 103,
+    "date": "2026-12-04",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-103/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-103/reel.mp4",
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 104,
+    "date": "2026-12-05",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-104/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-104/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-104/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-104/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 105,
+    "date": "2026-12-06",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-105/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-105/reel.mp4",
+    "master": 4,
+    "layout": 3
+  },
+  {
+    "campaign_day": 106,
+    "date": "2026-12-07",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-106/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-106/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-106/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-106/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 2
+  },
+  {
+    "campaign_day": 107,
+    "date": "2026-12-08",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-107/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 108,
+    "date": "2026-12-09",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-108/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-108/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-108/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-108/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 109,
+    "date": "2026-12-10",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-109/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 0
+  },
+  {
+    "campaign_day": 110,
+    "date": "2026-12-11",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-110/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-110/reel.mp4",
+    "master": 3,
+    "layout": 2
+  },
+  {
+    "campaign_day": 111,
+    "date": "2026-12-12",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-111/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-111/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-111/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-111/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 112,
+    "date": "2026-12-13",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-112/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-112/reel.mp4",
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 113,
+    "date": "2026-12-14",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-113/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-113/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-113/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-113/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 3
+  },
+  {
+    "campaign_day": 114,
+    "date": "2026-12-15",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-114/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 115,
+    "date": "2026-12-16",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-115/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-115/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-115/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-115/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 2
+  },
+  {
+    "campaign_day": 116,
+    "date": "2026-12-17",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-116/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 4
+  },
+  {
+    "campaign_day": 117,
+    "date": "2026-12-18",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-117/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-117/reel.mp4",
+    "master": 4,
+    "layout": 0
+  },
+  {
+    "campaign_day": 118,
+    "date": "2026-12-19",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-118/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-118/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-118/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-118/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 119,
+    "date": "2026-12-20",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-119/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-119/reel.mp4",
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 120,
+    "date": "2026-12-21",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-120/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-120/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-120/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-120/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 1
+  },
+  {
+    "campaign_day": 121,
+    "date": "2026-12-22",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-121/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 122,
+    "date": "2026-12-23",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-122/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-122/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-122/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-122/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 123,
+    "date": "2026-12-24",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-123/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 124,
+    "date": "2026-12-25",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-124/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-124/reel.mp4",
+    "master": 2,
+    "layout": 0
+  },
+  {
+    "campaign_day": 125,
+    "date": "2026-12-26",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-125/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-125/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-125/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-125/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 0
+  },
+  {
+    "campaign_day": 126,
+    "date": "2026-12-27",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-126/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-126/reel.mp4",
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 127,
+    "date": "2026-12-28",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-127/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-127/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-127/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-127/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 2
+  },
+  {
+    "campaign_day": 128,
+    "date": "2026-12-29",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-128/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 3
+  },
+  {
+    "campaign_day": 129,
+    "date": "2026-12-30",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-129/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-129/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-129/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-129/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 1
+  },
+  {
+    "campaign_day": 130,
+    "date": "2026-12-31",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-130/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 3
+  },
+  {
+    "campaign_day": 131,
+    "date": "2027-01-01",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-131/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-131/reel.mp4",
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 132,
+    "date": "2027-01-02",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-132/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-132/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-132/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-132/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 133,
+    "date": "2027-01-03",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-133/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-133/reel.mp4",
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 134,
+    "date": "2027-01-04",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-134/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-134/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-134/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-134/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 0
+  },
+  {
+    "campaign_day": 135,
+    "date": "2027-01-05",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-135/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 136,
+    "date": "2027-01-06",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-136/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-136/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-136/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-136/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 137,
+    "date": "2027-01-07",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-137/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 3
+  },
+  {
+    "campaign_day": 138,
+    "date": "2027-01-08",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-138/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-138/reel.mp4",
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 139,
+    "date": "2027-01-09",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-139/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-139/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-139/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-139/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 4
+  },
+  {
+    "campaign_day": 140,
+    "date": "2027-01-10",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-140/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-140/reel.mp4",
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 141,
+    "date": "2027-01-11",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-141/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-141/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-141/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-141/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 1
+  },
+  {
+    "campaign_day": 142,
+    "date": "2027-01-12",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-142/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 2
+  },
+  {
+    "campaign_day": 143,
+    "date": "2027-01-13",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-143/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-143/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-143/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-143/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 0
+  },
+  {
+    "campaign_day": 144,
+    "date": "2027-01-14",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-144/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 2
+  },
+  {
+    "campaign_day": 145,
+    "date": "2027-01-15",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-145/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-145/reel.mp4",
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 146,
+    "date": "2027-01-16",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-146/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-146/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-146/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-146/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 0
+  },
+  {
+    "campaign_day": 147,
+    "date": "2027-01-17",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-147/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-147/reel.mp4",
+    "master": 4,
+    "layout": 0
+  },
+  {
+    "campaign_day": 148,
+    "date": "2027-01-18",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-148/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-148/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-148/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-148/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 4
+  },
+  {
+    "campaign_day": 149,
+    "date": "2027-01-19",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-149/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 4
+  },
+  {
+    "campaign_day": 150,
+    "date": "2027-01-20",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-150/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-150/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-150/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-150/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 151,
+    "date": "2027-01-21",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-151/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 2
+  },
+  {
+    "campaign_day": 152,
+    "date": "2027-01-22",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-152/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-152/reel.mp4",
+    "master": 3,
+    "layout": 4
+  },
+  {
+    "campaign_day": 153,
+    "date": "2027-01-23",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-153/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-153/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-153/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-153/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 3
+  },
+  {
+    "campaign_day": 154,
+    "date": "2027-01-24",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-154/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-154/reel.mp4",
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 155,
+    "date": "2027-01-25",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-155/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-155/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-155/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-155/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 156,
+    "date": "2027-01-26",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-156/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 1
+  },
+  {
+    "campaign_day": 157,
+    "date": "2027-01-27",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-157/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-157/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-157/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-157/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 4
+  },
+  {
+    "campaign_day": 158,
+    "date": "2027-01-28",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-158/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 1
+  },
+  {
+    "campaign_day": 159,
+    "date": "2027-01-29",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-159/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-159/reel.mp4",
+    "master": 4,
+    "layout": 2
+  },
+  {
+    "campaign_day": 160,
+    "date": "2027-01-30",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-160/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-160/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-160/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-160/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 4
+  },
+  {
+    "campaign_day": 161,
+    "date": "2027-01-31",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-161/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-161/reel.mp4",
+    "master": 4,
+    "layout": 4
+  },
+  {
+    "campaign_day": 162,
+    "date": "2027-02-01",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-162/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-162/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-162/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-162/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 3
+  },
+  {
+    "campaign_day": 163,
+    "date": "2027-02-02",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-163/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 3
+  },
+  {
+    "campaign_day": 164,
+    "date": "2027-02-03",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-164/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-164/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-164/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-164/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 165,
+    "date": "2027-02-04",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-165/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 1
+  },
+  {
+    "campaign_day": 166,
+    "date": "2027-02-05",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-166/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-166/reel.mp4",
+    "master": 2,
+    "layout": 2
+  },
+  {
+    "campaign_day": 167,
+    "date": "2027-02-06",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-167/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-167/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-167/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-167/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 168,
+    "date": "2027-02-07",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-168/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-168/reel.mp4",
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 169,
+    "date": "2027-02-08",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-169/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-169/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-169/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-169/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 1,
+    "layout": 4
+  },
+  {
+    "campaign_day": 170,
+    "date": "2027-02-09",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-170/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 171,
+    "date": "2027-02-10",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-171/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-171/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-171/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-171/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 3,
+    "layout": 3
+  },
+  {
+    "campaign_day": 172,
+    "date": "2027-02-11",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-172/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 0
+  },
+  {
+    "campaign_day": 173,
+    "date": "2027-02-12",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-173/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-173/reel.mp4",
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 174,
+    "date": "2027-02-13",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-174/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-174/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-174/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-174/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 3
+  },
+  {
+    "campaign_day": 175,
+    "date": "2027-02-14",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-175/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-175/reel.mp4",
+    "master": 2,
+    "layout": 1
+  },
+  {
+    "campaign_day": 176,
+    "date": "2027-02-15",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-176/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-176/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-176/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-176/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 2
+  },
+  {
+    "campaign_day": 177,
+    "date": "2027-02-16",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-177/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 3
+  },
+  {
+    "campaign_day": 178,
+    "date": "2027-02-17",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-178/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-178/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-178/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-178/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 5,
+    "layout": 2
+  },
+  {
+    "campaign_day": 179,
+    "date": "2027-02-18",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-179/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 7,
+    "layout": 0
+  },
+  {
+    "campaign_day": 180,
+    "date": "2027-02-19",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-180/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-180/reel.mp4",
+    "master": 4,
+    "layout": 3
+  },
+  {
+    "campaign_day": 181,
+    "date": "2027-02-20",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-181/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-181/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-181/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-181/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 6,
+    "layout": 1
+  },
+  {
+    "campaign_day": 182,
+    "date": "2027-02-21",
+    "format": "reel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-182/poster.jpg"
+    ],
+    "reel_asset": "posts/arga-tirta-6m-v2/day-182/reel.mp4",
+    "master": 5,
+    "layout": 1
+  },
+  {
+    "campaign_day": 183,
+    "date": "2027-02-22",
+    "format": "carousel",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-183/slide-01.jpg",
+      "posts/arga-tirta-6m-v2/day-183/slide-02.jpg",
+      "posts/arga-tirta-6m-v2/day-183/slide-03.jpg",
+      "posts/arga-tirta-6m-v2/day-183/slide-04.jpg"
+    ],
+    "reel_asset": null,
+    "master": 2,
+    "layout": 4
+  },
+  {
+    "campaign_day": 184,
+    "date": "2027-02-23",
+    "format": "single",
+    "assets": [
+      "posts/arga-tirta-6m-v2/day-184/post.jpg"
+    ],
+    "reel_asset": null,
+    "master": 4,
+    "layout": 2
+  }
+]

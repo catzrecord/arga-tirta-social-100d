@@ -1,14 +1,12 @@
 {
-  "name": "arga-tirta-social-100d",
+  "name": "arga-tirta-social-6m-v2",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build_public.mjs",
     "validate": "node scripts/validate.mjs",
     "verify:local": "node scripts/publish_due.mjs --mode=plan",
-    "generate:threads": "python scripts/generate_threads_campaign.py",
-    "validate:threads": "node scripts/validate_threads.mjs",
-    "verify:threads:local": "node scripts/publish_threads_due.mjs --mode=plan",
-    "reels": "python3 scripts/convert_carousels_to_reels.py"
+    "generate:plan": "python3 planning/pak-tirto-6-months/build_plan.py",
+    "generate:assets": "python3 scripts/generate_6m_campaign_v2.py"
   }
 }

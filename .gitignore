@@ -8,3 +8,5 @@ __pycache__/
 .state/threads-token.enc
 .vercel/
 .env*.local
+.DS_Store
+production/

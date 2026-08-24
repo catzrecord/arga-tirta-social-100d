@@ -1,0 +1,84 @@
+{
+  "status": "pass",
+  "date_start": "2026-08-24",
+  "date_end": "2027-02-23",
+  "post_count": 184,
+  "unique_dates": 184,
+  "unique_hooks": 184,
+  "time_wib": "19:17",
+  "format_counts": {
+    "carousel": 79,
+    "reel": 52,
+    "single": 53
+  },
+  "pillar_counts": {
+    "brand_humor": 26,
+    "community": 26,
+    "conversion_proof": 28,
+    "edukasi": 52,
+    "maintenance": 26,
+    "produk_layanan": 26
+  },
+  "objective_counts": {
+    "comments_insight": 26,
+    "education": 26,
+    "lead_generation": 28,
+    "product_understanding": 26,
+    "reach_engagement": 26,
+    "save_share": 26,
+    "trust": 26
+  },
+  "featured_cast_counts": {
+    "Bu Yati": 51,
+    "Bu Yati + Pak Udin": 9,
+    "Pak Tirto": 39,
+    "Pak Tirto + Bu Yati": 10,
+    "Pak Tirto + Bu Yati + Pak Udin": 14,
+    "Pak Tirto + Pak Udin": 22,
+    "Pak Udin": 39
+  },
+  "series_counts": {
+    "Bu Yati Ikut Ngatur": 51,
+    "Bu Yati Mengawasi": 9,
+    "Cari Pak Udin": 39,
+    "Pak Tirto Bilang": 39,
+    "Pak Tirto Cari Pak Udin": 22,
+    "Rapat Depot": 14,
+    "Suami Istri Bahas Depot": 10
+  },
+  "camera_shot_counts": {
+    "detail portrait": 26,
+    "doorway wide": 26,
+    "environmental wide": 27,
+    "high-angle working scene": 27,
+    "low-angle wide": 26,
+    "observational medium": 26,
+    "top-corner overview": 26
+  },
+  "camera_angle_counts": {
+    "eye-level dari samping 30 derajat": 26,
+    "eye-level lebar": 27,
+    "eye-level rapat": 26,
+    "kamera dari sudut atas ruangan, menunduk diagonal": 26,
+    "kamera lebih tinggi dari kepala, menunduk 20-30 derajat": 27,
+    "kamera rendah melihat sedikit ke atas": 26,
+    "sedikit rendah dan mengarah ke atas": 26
+  },
+  "wide_post_count": 79,
+  "high_angle_post_count": 53,
+  "low_angle_post_count": 52,
+  "no_consecutive_camera_repeat": true,
+  "national_day_draft_count": 53,
+  "national_day_dates_unique": 53,
+  "national_day_all_have_hook_visual_cta": true,
+  "character_sheets": {
+    "Pak Tirto": "../../concepts/arga-tirta-cast-v2/pak-tirto-character-sheet.png",
+    "Bu Yati": "../../concepts/arga-tirta-cast-v2/bu-yati-character-sheet.png",
+    "Pak Udin": "../../concepts/arga-tirta-cast-v2/pak-udin-character-sheet.png"
+  },
+  "existing_queue_overlap_count": 81,
+  "existing_queue_overlap_end": "2026-11-12",
+  "live_queue_modified": true,
+  "all_statuses_approved_for_production": true,
+  "all_approvals_approved": true
+}

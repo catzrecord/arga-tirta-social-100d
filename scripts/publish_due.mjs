@@ -193,6 +193,7 @@ function exactCatalogMatch(audio, track) {
 
 async function selectWesternTrendingAudio(item) {
   if (item.post_type !== "reel") return null;
+  if (!audioAccessToken || !audioAccountId) return null;
   const catalog = await loadWesternAudioCatalog();
   const byKey = new Map(catalog.map((track) => [track.key, track]));
   const orderedKeys = [item.audio?.western_audio_key, ...(item.audio?.western_candidates || [])].filter(Boolean);
@@ -271,19 +272,24 @@ async function createReelContainer(item, videoUrl, audio) {
     media_type: "REELS",
     video_url: videoUrl,
     share_to_feed: "true",
-    audio_configuration: JSON.stringify({
+    ...captionParams(item),
+  };
+  if (audio) {
+    params.audio_configuration = JSON.stringify({
       audio_id: audio.audio_id,
       audio_volume: Number(item.audio?.audio_volume ?? 100),
       video_volume: Number(item.audio?.video_volume ?? 0),
-    }),
-    ...captionParams(item),
-  };
+    });
+  }
+  const create = () => audio
+    ? audioGraph(`${audioAccountId}/media`, params, "POST")
+    : graph(`${accountId}/media`, params, "POST");
   try {
-    return await audioGraph(`${audioAccountId}/media`, params, "POST");
+    return await create();
   } catch (error) {
     if (!/is_ai_generated|parameter/i.test(error.message) || !params.is_ai_generated) throw error;
     delete params.is_ai_generated;
-    return audioGraph(`${audioAccountId}/media`, params, "POST");
+    return create();
   }
 }
 
@@ -408,6 +414,10 @@ async function main() {
       return;
     }
     const audio = await selectWesternTrendingAudio(next);
+    if (!audio) {
+      await setOutput({ result: "audio_api_not_configured", post_id: next.id, now_wib: currentWib });
+      return;
+    }
     await setOutput({
       result: "western_audio_verified",
       username: account.username || "",
@@ -447,7 +457,7 @@ async function main() {
     await Promise.all(imageUrls.map((url) => verifyAsset(url, expectedType)));
     const audio = await selectWesternTrendingAudio(next);
     const container = await createContainer(next, imageUrls, audio);
-    await waitForContainer(container.id, next.post_type === "reel");
+    await waitForContainer(container.id, Boolean(audio));
     await setOutput({
       result: "preflight_ready",
       username: account.username || "",
@@ -492,11 +502,11 @@ async function main() {
 
   const audio = await selectWesternTrendingAudio(item);
   const container = await createContainer(item, imageUrls, audio);
-  await waitForContainer(container.id, item.post_type === "reel");
-  const published = item.post_type === "reel"
+  await waitForContainer(container.id, Boolean(audio));
+  const published = item.post_type === "reel" && audio
     ? await audioGraph(`${audioAccountId}/media_publish`, { creation_id: container.id }, "POST")
     : await graph(`${accountId}/media_publish`, { creation_id: container.id }, "POST");
-  const media = item.post_type === "reel"
+  const media = item.post_type === "reel" && audio
     ? await audioGraph(`${published.id}?fields=id,permalink,timestamp`)
     : await graph(`${published.id}?fields=id,permalink,timestamp`);
   await updatePlan(plan, item, media, "github_actions_graph_api", audio);

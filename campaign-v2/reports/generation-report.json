@@ -1,0 +1,18 @@
+{
+  "campaign": "arga-tirta-6m-v2",
+  "period": [
+    "2026-08-24",
+    "2027-02-23"
+  ],
+  "posts": 184,
+  "formats": {
+    "carousel": 79,
+    "reel": 52,
+    "single": 53
+  },
+  "asset_files": 473,
+  "unique_asset_hashes": 473,
+  "approval": "approved",
+  "status": "queued_auto",
+  "visual_revision": "digital-imaging-cast-shadow-v2"
+}

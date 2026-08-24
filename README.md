@@ -1,65 +1,67 @@
-# Arga Tirta Social 100D
+# Arga Tirta — Digital Imaging 6 Bulan
 
-## Threads via GitHub Actions
+Kampanye Instagram harian **24 Agustus 2026–23 Februari 2027** dengan tiga karakter konsisten:
 
-- Queue: `threads-content-plan.json`
-- 100 days, 2 starter posts/day at 08:17 and 19:17 WIB
-- 28 mini-thread sessions with 3 replies each
-- 10 unique local Arga Tirta photos are used once each; no repeated photo assets
-- 4 additional originals were recovered from the local 2026 Arga Tirta catalog PDF
-- Workflow: `.github/workflows/arga-tirta-threads.yml`
-- Required secret: `THREADS_ACCESS_TOKEN`
-- Existing secrets reused: `META_TOKEN_ENCRYPTION_KEY`, `PUBLIC_ASSET_BASE_URL`
-- Variables: `THREADS_EXPECTED_USERNAME=cv.argatirta`, `THREADS_GRAPH_BASE=https://graph.threads.net`
+- **Pak Tirto:** quality-control old-school yang terlalu teliti.
+- **Bu Yati:** cerewet, praktis, dan baik hati.
+- **Pak Udin:** teknisnya pintar, ritme kerjanya santai, sering dicari.
 
-Local checks:
+## Struktur kampanye
 
-```powershell
-npm run validate:threads
-npm run verify:threads:local
-```
+- Total: **184 posting** pukul **19.17 WIB**.
+- Mingguan: **3 carousel, 2 single, 2 Reel**.
+- Total format: **79 carousel, 53 single, 52 Reel**.
+- Visual: photoreal digital imaging, perspektif variatif, metafora tematik, pencahayaan terarah, contact shadow, rim light, dan typography **Bebas Neue + Montserrat**.
+- Antrean produksi: `content-plan.json`.
+- Media publik: `public/posts/arga-tirta-6m-v2/`.
+- Kalender editorial: `planning/pak-tirto-6-months/`.
+- Master visual dan laporan: `campaign-v2/`.
 
-Kampanye Instagram 100 hari untuk Arga Tirta.
+## Perintah lokal
 
-- 100 post terjadwal, 5 Agustus sampai 12 November 2026
-- 57 single photo
-- 29 rangkaian foto dan 14 rangkaian teks yang dirender menjadi Reel 9:16 selama masih antre
-- 200 aset final berukuran 1080 x 1350
-- Jadwal otomatis 19.17 WIB
-- Logo AT konsisten di kanan bawah
-
-## Pemeriksaan lokal
-
-```powershell
+```bash
+python3 planning/pak-tirto-6-months/build_plan.py
+python3 scripts/generate_6m_campaign_v2.py
 npm run validate
-npm run reels
 npm run build
 npm run verify:local
 ```
 
-Dashboards:
+## Autopost GitHub Actions
 
-- https://arga-tirta-social-100d.vercel.app/
-- https://catzrecord.github.io/arga-tirta-social-100d/
+Workflow `.github/workflows/arga-tirta-instagram.yml` berjalan setiap hari pada **12.17 UTC / 19.17 WIB**. Publisher memilih satu item paling lama dengan:
 
-## Reel dan audio Barat
-
-`npm run reels` memakai seluruh gambar carousel yang sudah ada, menatanya ke video 1080×1920 H.264 dengan cut cepat, lalu menyimpan MP4 di folder hari yang sama. Post yang telanjur live dipertahankan sebagaimana adanya.
-
-Setiap Reel memakai `trending-western-audio.json`, allowlist musik Barat yang diverifikasi 10 Agustus 2026. Saat publish, Instagram Audio API mengecek respons trending saat itu dan hanya memasang kecocokan judul plus artis yang tepat. Kredensial Audio API memakai Facebook Login dan disimpan sebagai `META_AUDIO_ACCESS_TOKEN` serta `META_AUDIO_INSTAGRAM_USER_ID`, terpisah dari token Instagram Login yang sudah berjalan.
-
-## Hubungkan akun Instagram
-
-Jalankan helper berikut. Token dimasukkan melalui prompt tersembunyi dan langsung
-disimpan sebagai GitHub Actions secret.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\setup_meta_secrets.ps1
+```text
+status=queued_auto
+approval_status=approved
+date + time_wib <= waktu sekarang
 ```
 
+Mode manual workflow:
 
-Setup interaktif kredensial musik Reel:
+- `verify`: periksa akun dan URL aset berikutnya.
+- `audio-check`: cocokkan allowlist musik Barat dengan katalog trending Instagram.
+- `preflight`: buat container media tanpa memublikasikan.
+- `due`: publikasikan item yang jatuh tempo.
+- `publish-id`: publikasikan queue ID tertentu.
 
-```bash
-bash scripts/setup_audio_secrets.sh
-```
+Repository secrets yang dipakai:
+
+- `META_ACCESS_TOKEN`
+- `META_TOKEN_ENCRYPTION_KEY`
+- `INSTAGRAM_USER_ID`
+- `PUBLIC_ASSET_BASE_URL`
+- `META_AUDIO_ACCESS_TOKEN`
+- `META_AUDIO_INSTAGRAM_USER_ID`
+
+Repository variables:
+
+- `EXPECTED_INSTAGRAM_USERNAME`
+- `META_GRAPH_VERSION`
+- `META_GRAPH_HOST`
+
+Setiap Reel memakai MP4 1080×1920 H.264. Jika dua secret Audio API tersedia, musik dipilih saat publish berdasarkan `trending-western-audio.json`; publisher tetap menjalankan Reel melalui Graph API utama ketika koneksi Audio API belum dipasang.
+
+## Dashboard
+
+GitHub Pages menampilkan seluruh antrean dari `public/index.html`. Push ke `main` menjalankan validasi, build, dan deployment Pages.

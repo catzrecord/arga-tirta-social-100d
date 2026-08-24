@@ -1,4 +1,4 @@
-name: Arga Tirta Instagram Cloud Publisher
+name: Arga Tirta 6-Month Instagram Autopost
 
 on:
   schedule:
@@ -33,7 +33,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     env:
       META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
       META_AUDIO_ACCESS_TOKEN: ${{ secrets.META_AUDIO_ACCESS_TOKEN }}
@@ -62,7 +62,7 @@ jobs:
           test -n "$META_TOKEN_ENCRYPTION_KEY"
           test -n "$INSTAGRAM_USER_ID"
           test -n "$PUBLIC_ASSET_BASE_URL"
-      - name: Validate queue and assets
+      - name: Validate 184-day V2 queue and assets
         run: npm run validate
       - name: Prepare renewable Meta token
         id: token
@@ -82,7 +82,7 @@ jobs:
           git config user.name "arga-tirta-publisher[bot]"
           git config user.email "arga-tirta-publisher@users.noreply.github.com"
           if [[ -f .state/meta-token.enc ]]; then git add -f .state/meta-token.enc; fi
-          git add content-plan.json public/content-plan.json public/index.html
+          git add content-plan.json public/content-plan.json public/index.html public/instagram.html
           git diff --cached --quiet && exit 0
           if [[ "$RESULT" == "published" || "$RESULT" == "already_published" ]]; then
             git commit -m "chore: record Arga Tirta post $POST_ID"
@@ -94,8 +94,9 @@ jobs:
       - name: Summary
         if: always()
         run: |
-          echo "## Arga Tirta Instagram Publisher" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Arga Tirta 6-Month Instagram Autopost" >> "$GITHUB_STEP_SUMMARY"
           echo "- Result: ${{ steps.publisher.outputs.result || 'workflow_failed' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Post: ${{ steps.publisher.outputs.post_id || '-' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Instagram: ${{ steps.publisher.outputs.instagram_url || '-' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Audio: ${{ steps.publisher.outputs.audio_title || '-' }} — ${{ steps.publisher.outputs.audio_artist || '-' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: every day at 19:17 WIB" >> "$GITHUB_STEP_SUMMARY"

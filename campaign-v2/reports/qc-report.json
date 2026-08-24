@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "posts": 184,
+  "date_start": "2026-08-24",
+  "date_end": "2027-02-23",
+  "formats": {
+    "carousel": 79,
+    "single": 53,
+    "reel": 52
+  },
+  "image_dimensions": {
+    "(1080, 1350)": 369,
+    "(1080, 1920)": 52
+  },
+  "video_specs": {
+    "('h264', 1080, 1920, '24/1', 6.0)": 52
+  },
+  "unique_titles": 184,
+  "unique_captions": 184,
+  "all_approved": true,
+  "all_queued_or_published": true,
+  "old_asset_paths_remaining": 0,
+  "public_media_bytes": 221451017,
+  "errors": []
+}
